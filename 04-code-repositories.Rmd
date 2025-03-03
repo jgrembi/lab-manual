@@ -1,8 +1,9 @@
 # Code repositories
 
-By Kunal Mishra, Jade Benjamin-Chung, and Stephanie Djajadi
+By Jess Grembi, Kunal Mishra, Jade Benjamin-Chung, and Stephanie Djajadi
 
-Each study has at least one code repository that typically holds R code, shell scripts with Unix code, and research outputs (results .RDS files, tables, figures). Repositories may also include datasets. This chapter outlines how to organize these files. Adhering to a standard format makes it easier for us to efficiently collaborate across projects. 
+Each study has a code repository that typically holds R code, shell scripts with Unix code, and research outputs (results .RDS files, tables, figures). Repositories may also include datasets if they do not contain PHI/PII. Our lab uses GitHub to organize and share our repositories both internally and publicly when we are ready to publish our results.
+This chapter outlines how to organize files within the repository and how to interface with GitHub. Adhering to a standard format makes it easier for us to efficiently collaborate across projects. 
 
 ## Project Structure
 
@@ -11,6 +12,8 @@ We recommend the following directory structure:
 ```
 0-run-project.sh
 0-config.R
+0 - Utils/
+    0-base-functions.R
 1 - Data-Management/
     0-prep-data.sh
     1-prep-cdph-fluseas.R
@@ -50,6 +53,9 @@ We recommend the following directory structure:
 ```
 
 For brevity, not every directory is "expanded", but we can glean some important takeaways from what we _do_ see.
+
+Examples from previous projects can be found here:
+***[Ziyi, add the links to the github examples here]***
 
 ## `.Rproj` files
 An "R Project" can be created within RStudio by going to `File >> New Project`. Depending on where you are with your research, choose the most appropriate option. This will save preferences, working directories, and even the results of running code/data (though I'd recommend starting from scratch each time you open your project, in general). Then, ensure that whenever you are working on that specific research project, you open your created project to enable the full utility of `.Rproj` files. This also automatically sets the directory to the top level of the project. 
