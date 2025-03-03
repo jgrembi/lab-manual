@@ -14,19 +14,16 @@ description: "Lab practices, safety, and data science best practices"
 # Welcome to the Grembi Lab!
 
 ## About the lab
-Welcome to the lab of Dr. Jess Grembi, Assistant Professor of Pharmacology and member of the Huck Institutes of the Life Sciences at Penn State University. Our mission is to improve population health by creating high quality evidence about what health interventions work in whom and where, when, and how to implement them. Most of our research is focused on infectious diseases, including malaria, diarrhea, soil-transmitted helminths, and influenza. Our focus is on improving the health of vulnerable populations from low-resource settings, both domestically and internationally. We use a variety of epidemiologic, computational, and statistical methods, including causal inference and machine learning methods, in pursuit of our mission. To learn more about the lab, visit [jadebc.net](https://jadebc.net).
+Welcome to the lab of Dr. Jess Grembi, Assistant Professor of Pharmacology and member of the Huck Institutes of the Life Sciences at Penn State University. Our mission is to improve child and maternal health in low- and middle-income countries by understanding the mechanisms underlying environmental enteric dysfunction. population health by creating high quality evidence about what health interventions work in whom and where, when, and how to implement them. Most of our research is focused on infectious diseases, including malaria, diarrhea, soil-transmitted helminths, and influenza. Our focus is on improving the health of vulnerable populations from low-resource settings, both domestically and internationally. We use a variety of epidemiologic, computational, and statistical methods, including causal inference and machine learning methods, in pursuit of our mission. To learn more about the lab, visit [jadebc.net](https://jadebc.net).
 
 ## About this lab manual
 This lab manual covers our communication strategy, code of conduct, laboratory safety, and best practices for reproducibility of computational workflows. It is a living document that is updated regularly. 
 
-This manual was forked from an excellent 
-The original version was created with input from a large number of team members and with inspiration from [other scientists' lab manuals](https://github.com/alylab/labmanual/blob/master/aly-lab-manual.pdf). 
-Contributors include Jade Benjamin-Chung, Kunal Mishra, Stephanie Djajadi, Nolan Pokpongkiat, Anna Nguyen, Iris Tong, and Gabby Barratt Heitmann.
+This manual draws heavily from my mentor and collaborator Dr. Jade Benjamin-Chung's lab manual (https://jadebc.github.io/lab-manual/). We forked that repo and several of the sections have not been modified at all given the similar coding style that I have adopted after working with Dr. Benjamin-Chung. Original author attributions are shown at the top of each section.
+Contributors to secitons unique to our lab manual include Dr. Jess Grembi, Ziyi Zhang, and Nazifa Tabassum.
 
 Feel free to draw from this manual (and please cite it if you do!).  
 
-<!-- https://beierlab.com/lab-antiracism-statement/ -->
-<!-- https://ib.berkeley.edu/labs/stillman/images/Stillman%20Lab%20Anti.pdf -->
 <br>
 <br>
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
