@@ -19,7 +19,7 @@ Welcome to the lab of Dr. Jess Grembi, Assistant Professor of Pharmacology and m
 ## About this lab manual
 This lab manual covers our communication strategy, code of conduct, laboratory safety, and best practices for reproducibility of computational workflows. It is a living document that is updated regularly. 
 
-This manual draws heavily from my mentor and collaborator Dr. Jade Benjamin-Chung's lab manual (https://jadebc.github.io/lab-manual/). We forked that repo and several of the sections have not been modified at all given the similar coding style that I have adopted after working with Dr. Benjamin-Chung. Original author attributions are shown at the top of each section.
+This manual draws heavily from my mentor and collaborator Dr. Jade Benjamin-Chung's lab manual (https://jadebc.github.io/lab-manual/). We forked that repo and several of the sections remain intact given the similar coding style that I have adopted after working with Dr. Benjamin-Chung. Original author attributions are shown at the top of each section.
 Contributors to secitons unique to our lab manual include Dr. Jess Grembi, Ziyi Zhang, and Nazifa Tabassum.
 
 Feel free to draw from this manual (and please cite it if you do!).  
