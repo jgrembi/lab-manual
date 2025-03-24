@@ -1,0 +1,44 @@
+#lab-safety
+
+by Jess Grembi
+
+Safety, health, and environmental stewardship are priorities at Penn State.  In particular, our lab handles samples that could potentially contain BSL2 organisms - these are pathogens that can cause diarrheal illness that is self-limiting (not life threatening).  We do not want to get ourselves or others sick so we adhere to strict protocols to reduce exposure when working in the lab.
+
+The Environmental Health and Safety (EHS) team is a resource to help  labs ensure we are in compliance with Federal and State laws, University directives, and are doing our best to support safety, health, and environmental stewardship (link to EHS website).  If you have any questions about these topics, feel free to reach out to Dr. Grembi or the lab Safety Officer.  If we can’t answer your question, and we can reach out to EHS for their assistance.
+
+The lab Safety Officer is Pablo Ochoa-Andersen.
+
+Key points to remember:
+
+Appropriate lab attire includes closed toe shoes and long pants.
+
+Gloves are not worn when opening doors or touching objects that may spread contamination to others.
+
+All gloves are permeable and will eventually allow chemicals and biological agents to come into contact with your skin.  Thus, double glove if you plan to work with any harsh chemicals and replace gloves as soon as feasible after they become contaminated.
+
+When using Biosafety cabinets ensure that you are not restricting airflow (with your body or with equipment placed into the cabinet).
+
+Required Institutional Lab Safety Training: There are several required trainings before anyone can work in the lab.  Please ensure you have completed all trainings and provided certificates to the Lab Safety Officer before performing any lab work.
+
+Laboratory Hazard Communication https://apps.opp.psu.edu/ehs_training/
+
+Laboratory and Research Safety Training
+
+Biosafety cabinet training
+
+Compressed gas training
+
+Lab Safety Tour and site-specific hazard identification
+
+Prior to conducting any work in the lab, new members will be given a lab safety tour by the Safety Officer where you will be shown the major hazards in the lab, and introduced to our lab-specific safety protocols. The safety tour will conclude with a review the Unit Specific Plan, and you will be asked to sign that you understand the hazards present in the lab and the protocols in place to minimize risk.
+
+
+Lab Safety Officer Responsibilities:
+
+Serve as the Chemical Safety Officer (CHO).
+
+Weekly Hazardous waste accumulation point check.
+
+Weekly eyewash station inspection and testing (verify with Huck if they do this or if we need to?)
+
+Monthly safety inspections.
