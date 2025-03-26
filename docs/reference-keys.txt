@@ -3,7 +3,6 @@ about-the-lab
 about-this-lab-manual
 culture-and-conduct
 lab-culture
-diversity-equity-and-inclusion
 protecting-human-subjects
 authorship
 communication-and-coordination
@@ -33,6 +32,8 @@ organizing-scripts
 documenting-your-code
 file-headers
 sections-and-subsections
+subsection--
+sub-subsection--
 code-folding
 comments-in-the-body-of-your-script
 function-documentation
@@ -55,6 +56,9 @@ parlapply
 future.lapply
 reviewing-code
 creating-a-pull-request-template
+summary-of-change
+link-to-spec
+who-should-review-the-pull-request
 coding-style
 comments
 line-breaks
@@ -146,8 +150,3 @@ presentations
 professional-advice
 funding
 ethics-and-global-health-research
-subsection--
-sub-subsection--
-summary-of-change
-link-to-spec
-who-should-review-the-pull-request

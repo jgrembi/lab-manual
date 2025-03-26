@@ -14,13 +14,13 @@ description: "Lab practices, safety, and data science best practices"
 # Welcome to the Grembi Lab!
 
 ## About the lab
-Welcome to the lab of Dr. Jess Grembi, Assistant Professor of Pharmacology and member of the Huck Institutes of the Life Sciences at Penn State University. Our mission is to improve child and maternal health in low- and middle-income countries by understanding the mechanisms underlying environmental enteric dysfunction. population health by creating high quality evidence about what health interventions work in whom and where, when, and how to implement them. Most of our research is focused on infectious diseases, including malaria, diarrhea, soil-transmitted helminths, and influenza. Our focus is on improving the health of vulnerable populations from low-resource settings, both domestically and internationally. We use a variety of epidemiologic, computational, and statistical methods, including causal inference and machine learning methods, in pursuit of our mission. To learn more about the lab, visit [jadebc.net](https://jadebc.net).
+Welcome to the lab of Dr. Jess Grembi, Assistant Professor of Pharmacology and member of the Huck Institutes of the Life Sciences at Penn State University. Our mission is to improve child and maternal health in low- and middle-income countries by understanding the mechanisms underlying environmental enteric dysfunction. Specifically, we study the microbiota that reside in the human small and large intestine, the metabolites they produce, and how these interact with the host immune system. Our focus is on improving the health of vulnerable populations from low-resource settings, particularly with respect to nutritional status. We are an interdisciplinary team and work collaboratively with microbiologists, immunologists, statisticians, epidemiologists, clinicians, and other scientists, both locally and globally. Together we tackle pressing questions related to child and maternal health, striving to make a meaningful impact in the communities we serve. To learn more about the lab, visit [the lab website](https://jgrembi.github.io).
 
 ## About this lab manual
 This lab manual covers our communication strategy, code of conduct, laboratory safety, and best practices for reproducibility of computational workflows. It is a living document that is updated regularly. 
 
-This manual draws heavily from my mentor and collaborator Dr. Jade Benjamin-Chung's lab manual (https://jadebc.github.io/lab-manual/). We forked that repo and several of the sections remain intact given the similar coding style that I have adopted after working with Dr. Benjamin-Chung. Original author attributions are shown at the top of each section.
-Contributors to secitons unique to our lab manual include Dr. Jess Grembi, Ziyi Zhang, and Nazifa Tabassum.
+This manual draws heavily from the [lab manual](https://jadebc.github.io/lab-manual/) of my mentor and collaborator, Dr. Jade Benjamin-Chung. We forked that repo and several of the sections remain intact given the similar coding style that I have adopted after working with Dr. Benjamin-Chung. Original author attributions are shown at the top of each section.
+Contributors from the Grembi lab include Dr. Jess Grembi, Ziyi Zhang, and Nazifa Tabassum.
 
 Feel free to draw from this manual (and please cite it if you do!).  
 

@@ -4,13 +4,16 @@ by Jess Grembi
 
 ## Lab culture
 
-We are committed to a lab culture that fosters creativity, integrity, enthusiasm, inclusivity, and rigor.  As an interdiciplinary team, our differences are our strength. We work together to share our knowledge and seek assistance when needed. We aim to work with each other in a collaborative, supportive, inclusive, and open manner, and our lab space is free from discrimination and harassment. 
+We are committed to a lab culture that fosters creativity, integrity, enthusiasm, inclusivity, and rigor.  As an interdisciplinary team, our differences are our strength.  We aim to work with each other in a collaborative, supportive, inclusive, and open manner, and our lab space is free from discrimination and harassment. 
 
-We encourage students / staff of all experience levels to respectfully share their honest opinions and ideas on any topic. Our group has thrived upon such respectful honest input from team members over the years, and this document is a product of years of student and staff input (and even debate) that has gradually improved our productivity and overall quality of our work. 
+We aspire to be a lab where everyone feels motivated to share their thoughts and ideas in a respectful and constructive way.  Each of us sees things differently and comes to the table with different expertise. Even new lab members who are still learning about our research can offer valuable critical evaluation of our work and are exceptional resources to gain feedback on what is not clear in how we present our research.
 
-## Diversity, equity, and inclusion
+We work together to share our knowledge and seek assistance when needed. This lab manual is a resource for sharing such information with each other, in particular how to get your analyses running smoothly. Please let Dr. Grembi know if you have ideas about new content to add!
+<!-- Our group has thrived upon such respectful honest input from team members over the years, and this document is a product of years of student and staff input (and even debate) that has gradually improved our productivity and overall quality of our work.  -->
 
-The Grembi lab recognizes the importance of and is committed to cultivating a culture of diversity, equity, and inclusion. This means being a safe, supportive, and anti-racist environment in which students from diverse backgrounds are equally and inclusively supported in their education and training. Diversity takes many forms, and includes, but is not limited to, differences in race, ethnicity, gender, sexuality, socioeconomic status, religion, disability, and political affiliation.
+<!-- ## Diversity, equity, and inclusion -->
+
+<!-- The Grembi lab recognizes the importance of and is committed to cultivating a culture of diversity, equity, and inclusion. This means being a safe, supportive, and anti-racist environment in which students from diverse backgrounds are equally and inclusively supported in their education and training. Diversity takes many forms, and includes, but is not limited to, differences in race, ethnicity, gender, sexuality, socioeconomic status, religion, disability, and political affiliation. -->
 
 ## Protecting human subjects
 
@@ -25,6 +28,6 @@ Remember, data that looks like it does not contain identifiers to you might stil
 
 ## Authorship
 
-We adhere to the [ICMJE Definition of authorship](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html) and are happy for team members who meet the definition of authorship to be included as co-authors on scientific manuscripts. 
+Team members who meet the [ICMJE Definition of authorship](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html) will be included as co-authors on scientific manuscripts. 
 
 
