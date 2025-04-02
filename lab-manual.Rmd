@@ -68,15 +68,16 @@ Team members who meet the [ICMJE Definition of authorship](http://www.icmje.org/
 
 # Communication and coordination
 
-by Jade Benjamin-Chung
+by Jess Grembi
 
 One benefit of the academic environment is its schedule flexibility. This means that lab members may choose to work in the early morning, evening, or weekends. That said, we do not expect lab members to respond outside of business hours (unless there are special circumstances).
 
 ## Slack
 
 - Use Slack for scheduling, coding related questions, quick check ins, etc. If your Slack message exceeds 200 words, it might be time to use email. 
+- Note that our current Slack subscription only allows us to access messages sent within the previous 90 days.  So, ensure that critical information is saved elsewhere.
 - Use channels instead of direct messages unless you need to discuss something private. 
-- Please make an effort to respond to messages that message you (e.g., `@jade`) as quickly as possible and always within 24 hours. 
+- Please make an effort to respond to messages that message you (e.g., `@jess`) as quickly as possible and always within 24 hours. 
 - If you are unusually busy (e.g., taking MCAT/GRE, taking many exams) or on vacation please alert the team in advance so we can expect you not to respond at all / as quickly as usual and also [set your status in Slack](https://get.slack.help/hc/en-us/articles/201864558-Set-your-Slack-status-and-availability) (e.g., it could say "On vacation") so we know not to expect to see you online. 
 - Please thread messages in Slack as much as possible. 
 
@@ -87,11 +88,11 @@ One benefit of the academic environment is its schedule flexibility. This means 
 
 ## Trello
 
-- Jade will add new cards within our shared Trello board that outline your tasks. 
+- Jess will add new cards within our shared Trello board that outline your tasks. 
 - The higher a card is within your list, the higher priority it is.
 - Generally, strive to complete the tasks in your card by the date listed. 
-- Use checklists to break down a task into smaller chunks. Sometimes Jade will write this for you, but you can also add this yourself. 
-- Jade will move your card to the "Completed" list when it is done. 
+- Use checklists to break down a task into smaller chunks. Sometimes Jess will write this for you, but you can also add this yourself. 
+- Please move your card to the "Completed" list when it is done. Cards with '#TJ' in the title indicate that you should "Tell Jess" when the task has been completed.  This hashtag is an indicator that someone else might be waiting on you to finish this task in order to proceed with other work, so it's another way to ensure critical tasks are communicated within the team. 
 
 ## Google Drives
 
@@ -101,7 +102,7 @@ One benefit of the academic environment is its schedule flexibility. This means 
 
 - Our meetings start on the hour.
 - If you are going to be late, please send a message in our Slack channel. 
-- If you are regularly not able to come on the hour, notify the team and we might choose the modify the agenda order or the start time. 
+- If you are regularly not able to come on the hour, notify the team and we might choose to modify the agenda order or the start time. 
 
 <!--chapter:end:02-communication.Rmd-->
 
