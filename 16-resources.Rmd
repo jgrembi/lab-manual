@@ -4,6 +4,16 @@ by Jade Benjamin-Chung and Kunal Mishra
 
 ## Resources for R
 
+### For Beginners
+
+- [Introduction to R](https://monashdatafluency.github.io/r-intro-2/)
+- [R Learning Path: from beginner to expert in 7 steps](https://www.kdnuggets.com/2016/03/datacamp-r-learning-path-7-steps.html)
+- [Swirl](https://swirlstats.com/students.html)
+- [Stanford R Bootcamp - Summer 2020](https://biox-rbootcamp.github.io/material)
+- [R Style Guide](http://adv-r.had.co.nz/Style.html)
+
+### For Intermediate/Advanced Users
+
 - [dplyr and tidyr cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
 - [ggplot cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf)
 - [data table cheat sheet](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/datatable_Cheat_Sheet_R.pdf)
