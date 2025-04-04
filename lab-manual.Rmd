@@ -1905,7 +1905,7 @@ by Jade Benjamin-Chung
 
 # Resources
 
-by Jade Benjamin-Chung and Kunal Mishra
+by Jade Benjamin-Chung, Kunal Mishra, and Jess Grembi
 
 ## Resources for R
 
@@ -1931,9 +1931,10 @@ by Jade Benjamin-Chung and Kunal Mishra
 - [Standard Evaluation for *_join](https://stackoverflow.com/questions/28125816/r-standard-evaluation-for-join-dplyr) (stackoverflow)
 - [Programming with dplyr](https://dplyr.tidyverse.org/articles/programming.html) (package vignette)
 
-## Resources for Git & Github
-- [Data Camp introduction to Git](https://www.datacamp.com/courses/introduction-to-git-for-data-science)
-- [Introduction to Github](https://lab.github.com/githubtraining/introduction-to-github)
+## Resources for Git & Github Specifically tailored for R users
+- [Happy Git and GitHub for the useR](https://happygitwithr.com)
+- [Git and Github in RStudio](https://jcoliver.github.io/learn-r/010-github.html)
+- [Setting your GitHub credentials](https://gist.github.com/Z3tt/3dab3535007acf108391649766409421)
 
 ## Scientific figures
 - [Ten Simple Rules for Better Figures](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833)
