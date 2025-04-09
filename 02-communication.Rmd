@@ -26,9 +26,9 @@ One benefit of the academic environment is its schedule flexibility. This means 
 - Use checklists to break down a task into smaller chunks. Sometimes Jess will write this for you, but you can also add this yourself. 
 - Please move your card to the "Completed" list when it is done. Cards with '#TJ' in the title indicate that you should "Tell Jess" when the task has been completed.  This hashtag is an indicator that someone else might be waiting on you to finish this task in order to proceed with other work, so it's another way to ensure critical tasks are communicated within the team. 
 
-## Google Drives
+## Sharepoint
 
-- We mostly use Google Drive to create shared documents with longer descriptions of tasks. These documents are linked to in Trello. Jade often shares these with the whole team since tasks are overlapping, and even if a task is assigned to one person, others may have valuable insights. 
+- We mostly use Sharepoint to create shared documents with longer descriptions of tasks. These documents are linked to in Trello. We often share these with the whole team since tasks are overlapping, and even if a task is assigned to one person, others may have valuable insights. 
 
 ## Meetings
 
