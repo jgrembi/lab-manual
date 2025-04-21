@@ -30,4 +30,45 @@ Remember, data that looks like it does not contain identifiers to you might stil
 
 Team members who meet the [ICMJE Definition of authorship](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html) will be included as co-authors on scientific manuscripts. 
 
+## Responsible Use of AI Tools in Our Lab
+I encourage lab members to think of large language models (LLMs) and other AI tools the way we think about calculators or Wikipedia: they can be incredibly useful, but only if you already have an understanding of what you’re doing. They’re best used as assistants -- not as authorities or substitutes for careful thinking. This guide outlines how I expect AI tools to be used in our lab context. This guide was written with the help of ChatGPT.
+ 
+### Philosophy
+AI tools can help us work more efficiently, learn more quickly, and get past sticking points -- whether that’s debugging a script, brainstorming how to visualize data, or wading through a dense research article. I see them as part of the broader toolkit we use to support our work, like textbooks, search engines, or discussion with labmates. But just like those other tools, the usefulness of AI depends on the thoughtfulness of the person using it. It can help you think, but it can’t do the thinking for you. Think of AI tools like a lab whiteboard: a place to sketch ideas, not publish results. It will not take responsibility for errors, misinterpretations, or ethical lapses. That’s still on you.
+ 
+### Helpful and Encouraged Uses
+You’re welcome to use AI tools to assist with tasks like:
+·       Googling stuff! Even excluding Gemini, Google search uses AI
+·       Getting help understanding a research paper or background topic
+·       Brainstorming or refining ideas (e.g., for a figure, a method, or a statistical approach)
+·       Getting feedback on a piece of writing you drafted
+·       Asking for explanations of code behavior or MATLAB/R functions
+·       Writing or revising your own code, as long as you understand what the code is doing
+·       Generating visualizations or suggesting ways to summarize data
+
+
+It’s fine to use AI to “talk things out.” Just don’t stop there -- make sure you apply your own judgment and review anything it suggests carefully.
+ 
+### Use with Caution: Known Limitations
+AI tools often sound confident even when they’re wrong. They can fabricate citations, introduce subtle bugs in code, or suggest statistical approaches that don’t fit your design. Some specific risks include:
+·       Code suggestions might run but be logically incorrect
+·       Statistical advice might not match your data or assumptions
+·       Summaries of research papers can miss key details or invent conclusions
+·       
+ While AI tools are improving — for example, ChatGPT now offers a DeepResearch feature designed to reduce citation hallucinations and summarise literature — these are still limited to open-access articles only, and errors still happen. Always verify citations at the source. To use DeepResearch, you have to ask ChatGPT to use it as it won’t search carefully by default. For example, you would need your prompt to be something like: “Using deep research, give me a paper that describes x”
+​​
+If you don’t already understand the concept or method, you probably won’t be able to tell if the AI got it wrong. That’s a sign you should pause and ask a labmate (or me) for help.
+ 
+### Boundaries and Responsibilities
+No uploading data: Never paste data, participant responses, or sensitive information into AI tools -- even in small samples. That includes data from active studies, even if it looks anonymous. If you’re getting help with code, describe the structure of your data instead (e.g. “I have a 64×1000×120 matrix called motionData representing channels x timepoints (in ms) x trials”, or “I have a data frame in R where each row represents a participant and the columns include group, age, and threshold”). If you’re not sure how to describe your data without showing it, ask a labmate or bring it to our next meeting.
+No identifiable content: Avoid including names or sharing personal details with these tools, including information about yourself - whether you’re getting help with writing a reference letter, drafting an email, or talking through a lab-related issue. Even if it seems harmless, AI tools are not private spaces.
+You’re responsible for vetting the output: If you don’t understand the code, math, or language an AI tool gives you, don’t just copy and paste it into your project. Run it by someone else, or step back and learn the concept first. That’s how you grow as a researcher. AI is here to help you work, not do your work for you.
+No AI-written research content: AI should never be used to generate text for a research paper, abstract, or manuscript section. You can use it to help organize your thoughts or improve the clarity of something you wrote -- but the core ideas, language, and citations must be your own. Even if you’re using AI to help you phrase something better, avoid copy-pasting text that it wrote for you. You’ll learn a lot more (and avoid problems) by rewriting in your own words.
+This includes embedded AI tools: This policy applies not just to standalone tools like ChatGPT, but also to built-in features like GitHub Copilot, Microsoft Editor, or Google Docs suggestions. Use the same judgment no matter where the AI shows up.
+ 
+### Other Contexts Have Other Rules
+This guide is specific to our lab work. If you’re working on coursework, a class presentation, a fellowship application, or a conference submission, you must follow their guidelines about AI use and authorship.
+
+
+
 
