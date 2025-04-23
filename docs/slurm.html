@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 15 Slurm and cluster computing | Grembi Lab Manual</title>
+  <title>Chapter 15 Slurm and cluster computing on ROAR | Grembi Lab Manual</title>
   <meta name="description" content="Lab practices, safety, and data science best practices" />
   <meta name="generator" content="bookdown 0.42 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 15 Slurm and cluster computing | Grembi Lab Manual" />
+  <meta property="og:title" content="Chapter 15 Slurm and cluster computing on ROAR | Grembi Lab Manual" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="Lab practices, safety, and data science best practices" />
   <meta name="github-repo" content="jgrembi/lab-manual" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 15 Slurm and cluster computing | Grembi Lab Manual" />
+  <meta name="twitter:title" content="Chapter 15 Slurm and cluster computing on ROAR | Grembi Lab Manual" />
   
   <meta name="twitter:description" content="Lab practices, safety, and data science best practices" />
   
@@ -148,13 +148,21 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="2.1" data-path="culture-and-conduct.html"><a href="culture-and-conduct.html#lab-culture"><i class="fa fa-check"></i><b>2.1</b> Lab culture</a></li>
 <li class="chapter" data-level="2.2" data-path="culture-and-conduct.html"><a href="culture-and-conduct.html#protecting-human-subjects"><i class="fa fa-check"></i><b>2.2</b> Protecting human subjects</a></li>
 <li class="chapter" data-level="2.3" data-path="culture-and-conduct.html"><a href="culture-and-conduct.html#authorship"><i class="fa fa-check"></i><b>2.3</b> Authorship</a></li>
+<li class="chapter" data-level="2.4" data-path="culture-and-conduct.html"><a href="culture-and-conduct.html#responsible-use-of-ai-tools-in-our-lab"><i class="fa fa-check"></i><b>2.4</b> Responsible Use of AI Tools in Our Lab</a>
+<ul>
+<li class="chapter" data-level="2.4.1" data-path="culture-and-conduct.html"><a href="culture-and-conduct.html#philosophy"><i class="fa fa-check"></i><b>2.4.1</b> Philosophy</a></li>
+<li class="chapter" data-level="2.4.2" data-path="culture-and-conduct.html"><a href="culture-and-conduct.html#helpful-and-encouraged-uses"><i class="fa fa-check"></i><b>2.4.2</b> Helpful and Encouraged Uses</a></li>
+<li class="chapter" data-level="2.4.3" data-path="culture-and-conduct.html"><a href="culture-and-conduct.html#use-with-caution-known-limitations"><i class="fa fa-check"></i><b>2.4.3</b> Use with Caution: Known Limitations</a></li>
+<li class="chapter" data-level="2.4.4" data-path="culture-and-conduct.html"><a href="culture-and-conduct.html#boundaries-and-responsibilities"><i class="fa fa-check"></i><b>2.4.4</b> Boundaries and Responsibilities</a></li>
+<li class="chapter" data-level="2.4.5" data-path="culture-and-conduct.html"><a href="culture-and-conduct.html#other-contexts-have-other-rules"><i class="fa fa-check"></i><b>2.4.5</b> Other Contexts Have Other Rules</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="communication-and-coordination.html"><a href="communication-and-coordination.html"><i class="fa fa-check"></i><b>3</b> Communication and coordination</a>
 <ul>
 <li class="chapter" data-level="3.1" data-path="communication-and-coordination.html"><a href="communication-and-coordination.html#slack"><i class="fa fa-check"></i><b>3.1</b> Slack</a></li>
 <li class="chapter" data-level="3.2" data-path="communication-and-coordination.html"><a href="communication-and-coordination.html#email"><i class="fa fa-check"></i><b>3.2</b> Email</a></li>
 <li class="chapter" data-level="3.3" data-path="communication-and-coordination.html"><a href="communication-and-coordination.html#trello"><i class="fa fa-check"></i><b>3.3</b> Trello</a></li>
-<li class="chapter" data-level="3.4" data-path="communication-and-coordination.html"><a href="communication-and-coordination.html#google-drives"><i class="fa fa-check"></i><b>3.4</b> Google Drives</a></li>
+<li class="chapter" data-level="3.4" data-path="communication-and-coordination.html"><a href="communication-and-coordination.html#sharepoint"><i class="fa fa-check"></i><b>3.4</b> Sharepoint</a></li>
 <li class="chapter" data-level="3.5" data-path="communication-and-coordination.html"><a href="communication-and-coordination.html#meetings"><i class="fa fa-check"></i><b>3.5</b> Meetings</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="reproducibility.html"><a href="reproducibility.html"><i class="fa fa-check"></i><b>4</b> Reproducibility</a>
@@ -311,11 +319,13 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="14.6" data-path="data-publication.html"><a href="data-publication.html#create-a-public-github-page-for-public-scripts"><i class="fa fa-check"></i><b>14.6</b> Create a public GitHub page for public scripts</a></li>
 <li class="chapter" data-level="14.7" data-path="data-publication.html"><a href="data-publication.html#go-live"><i class="fa fa-check"></i><b>14.7</b> Go live</a></li>
 </ul></li>
-<li class="chapter" data-level="15" data-path="slurm.html"><a href="slurm.html"><i class="fa fa-check"></i><b>15</b> Slurm and cluster computing</a>
+<li class="chapter" data-level="15" data-path="slurm.html"><a href="slurm.html"><i class="fa fa-check"></i><b>15</b> Slurm and cluster computing on ROAR</a>
 <ul>
 <li class="chapter" data-level="15.1" data-path="slurm.html"><a href="slurm.html#getting-started"><i class="fa fa-check"></i><b>15.1</b> Getting started</a>
 <ul>
-<li class="chapter" data-level="15.1.1" data-path="slurm.html"><a href="slurm.html#one-time-system-set-up"><i class="fa fa-check"></i><b>15.1.1</b> One-Time System Set-Up</a></li>
+<li class="chapter" data-level="15.1.1" data-path="slurm.html"><a href="slurm.html#storage"><i class="fa fa-check"></i><b>15.1.1</b> Storage</a></li>
+<li class="chapter" data-level="15.1.2" data-path="slurm.html"><a href="slurm.html#submitting-jobs"><i class="fa fa-check"></i><b>15.1.2</b> Submitting jobs</a></li>
+<li class="chapter" data-level="15.1.3" data-path="slurm.html"><a href="slurm.html#one-time-system-set-up"><i class="fa fa-check"></i><b>15.1.3</b> One-Time System Set-Up</a></li>
 </ul></li>
 <li class="chapter" data-level="15.2" data-path="slurm.html"><a href="slurm.html#moving-files-to-sherlock"><i class="fa fa-check"></i><b>15.2</b> Moving files to Sherlock</a></li>
 <li class="chapter" data-level="15.3" data-path="slurm.html"><a href="slurm.html#installing-packages-on-sherlock"><i class="fa fa-check"></i><b>15.3</b> Installing packages on Sherlock</a></li>
@@ -376,35 +386,55 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
             <section class="normal" id="section-">
 <div id="slurm" class="section level1 hasAnchor" number="15">
-<h1><span class="header-section-number">Chapter 15</span> Slurm and cluster computing<a href="slurm.html#slurm" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p>by Anna Nguyen, Jade Benjamin-Chung, and Gabby Barratt Heitmann</p>
-<p>When you need to run a script that requires a large amount of RAM, large files, or that uses parallelization, you can use Sherlock, Stanford’s computing cluster. Sherlock uses Slurm, an open source, scalable cluster management and job scheduling system for computing clusters. Jade can email Sherlock managers to get you an account. Please refer to the <a href="https://www.sherlock.stanford.edu/docs/overview/introduction/">Sherlock user guide</a> to learn about the system and how to use it. Below, we include a few tips specific to how we use Sherlock in our lab.</p>
+<h1><span class="header-section-number">Chapter 15</span> Slurm and cluster computing on ROAR<a href="slurm.html#slurm" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>by Jess Grembi</p>
+<p>Many of the bioinformatic tools that we use require a large amount of RAM, rely on large databases, and can be run in parallel across many samples. For these types of analyses, we use ROAR Collab, Penn State’s computing cluster. ROAR uses Slurm, an open source, scalable cluster management and job scheduling system for computing clusters. You will need to request an account, and once you have one Jess can add you to the lab account tp access our storage areas and compute resources. Please refer to the <a href="https://docs.icds.psu.edu">ROAR User Guide</a> to learn about the system and how to use it (this also contains instructions for how to request an account). Below, we include a few tips specific to how we use Sherlock in our lab.</p>
 <div id="getting-started" class="section level2 hasAnchor" number="15.1">
 <h2><span class="header-section-number">15.1</span> Getting started<a href="slurm.html#getting-started" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>To access Sherlock, in terminal, log in using the following syntax and replace “USERNAME” with your Stanford alias. You will be prompted to enter your Stanford password (the same one you use for your email and other accounts) and to complete two-factor authentication.</p>
-<pre class="code1"><code>ssh USERNAME@login.sherlock.stanford.edu</code></pre>
+<p>To access ROAR Collab, in terminal, log in using the following syntax and replace ,<user> with your PSU alias. You will be prompted to enter your PSU password (the same one you use for your email and other accounts) and to complete two-factor authentication.</p>
+<pre class="code1"><code>ssh &lt;user&gt;@submit.hpc.psu.edu</code></pre>
 <p>Once you log in, you can view the contents of your home directory in command line by entering <code>cd $HOME</code>. You can create subfolders within this directory using the <code>mkdir</code> command. For example, you could make a “code” subdirectory and clone a Github repository there using the following code:</p>
 <pre class="code2"><code>cd $HOME
 mkdir code
 git clone https://github.com/jadebc/covid19-infections.git</code></pre>
-<div id="one-time-system-set-up" class="section level3 hasAnchor" number="15.1.1">
-<h3><span class="header-section-number">15.1.1</span> One-Time System Set-Up<a href="slurm.html#one-time-system-set-up" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="storage" class="section level3 hasAnchor" number="15.1.1">
+<h3><span class="header-section-number">15.1.1</span> Storage<a href="slurm.html#storage" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Each user account is provided with 3 different storage assets. The <code>$HOME</code> directory is a good place to store code and small test files (quota: 16 GB per user) and the <code>$WORK</code> directory is a good place to store larger items that you will use regularly (quota: 128 GB per user). Save intermediate processing files and temporary files generated by specific bioinformatic tools to the <code>$SCRATCH</code> directory (quota: unlimited, but files are automatically deleted 30 days after their last modification). You can read more about storage options on ROAR <a href="https://docs.icds.psu.edu/handling-data/file-storage/">here</a>.</p>
+<p>The lab has also purchased active storage space (45 TiB, accessible at <code>/storage/group/jag548/default</code>) and archive storage (15 TiB, accessible at <code>/storage/archive/jag548/default</code>). Archive storage is about 1/4 the cost of active storage so raw sequencing files should be moved to the archive storage once you’ve completed the preliminary data processing steps and are fairly certain you will not be needing them again anytime soon.</p>
+<p>You can check the use of your personal storage and the group resources easily by running:</p>
+<pre class="code3"><code>check_quota</code></pre>
+</div>
+<div id="submitting-jobs" class="section level3 hasAnchor" number="15.1.2">
+<h3><span class="header-section-number">15.1.2</span> Submitting jobs<a href="slurm.html#submitting-jobs" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>ROAR has various CPU and GPU compute resources. On the basic cluster, all users have access to the following resources (across all jobs they have submitted):
+48h runtime
+800 GB
+100 cores</p>
+<p>There are 3 different hardware partitions, and you need to specify which you want your jobs to run on:
+basic cores: 4GB/core
+standard cores: 8GB/core
+high memory cores: 20GB/core</p>
+<p>The task/job being run should dictate which partition you should use.</p>
+<p>Your credit account ” jag548_cr_credit” is active. To use the account, you will need to specify it in your job submission by either selecting it via the drop down options on the portal, or by using the directive “–account= jag548_cr_credit”. Additionally, you will also need to specify the desired hardware partition for your job to launch correctly. The options are “basic”, “standard”, and “himem”.</p>
+</div>
+<div id="one-time-system-set-up" class="section level3 hasAnchor" number="15.1.3">
+<h3><span class="header-section-number">15.1.3</span> One-Time System Set-Up<a href="slurm.html#one-time-system-set-up" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>To keep the install packages consistent across different nodes, you will need to explicitly set the pathway to your R library directory.</p>
 <p>Open your <code>~/.Renviron</code> file (<code>vi ~/.Renviron</code>) and append the following line:</p>
 <p><em>Note: Once you open the file using <code>vi [file_name]</code>, you must press <code>i</code> (on Mac OS) or <code>Insert</code> (on Windows) to make edits. After you finish, hit <code>Esc</code> to exit editing mode and type <code>:wq</code> to save and close the file.</em></p>
-<div class="sourceCode" id="cb35"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb35-1"><a href="slurm.html#cb35-1" tabindex="-1"></a><span class="va">R_LIBS</span><span class="op">=</span>~/R/x86_64-pc-linux-gnu-library/4.0.2</span></code></pre></div>
+<div class="sourceCode" id="cb36"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb36-1"><a href="slurm.html#cb36-1" tabindex="-1"></a><span class="va">R_LIBS</span><span class="op">=</span>~/R/x86_64-pc-linux-gnu-library/4.0.2</span></code></pre></div>
 <p>Alternatively, run an R script with the following code on Sherlock:</p>
-<pre class="code3"><code>r_environ_file_path = file.path(Sys.getenv(&quot;HOME&quot;), &quot;.Renviron&quot;)
+<pre class="code4"><code>r_environ_file_path = file.path(Sys.getenv(&quot;HOME&quot;), &quot;.Renviron&quot;)
 if (!file.exists(r_environ_file_path)) file.create(r_environ_file_path)
 
 cat(&quot;\nR_LIBS=~/R/x86_64-pc-linux-gnu-library/4.0.2&quot;,
     file = r_environ_file_path, sep = &quot;\n&quot;, append = TRUE)</code></pre>
 <p>To load packages that run off of C++, you’ll need to set the correct compiler options in your R environment.</p>
 <p>Open the Makevars file in Sherlock (<code>vi ~/.R/Makevars</code>) and append the following lines</p>
-<div class="sourceCode" id="cb37"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb37-1"><a href="slurm.html#cb37-1" tabindex="-1"></a><span class="va">CXX14FLAGS</span><span class="op">=</span>-O3 <span class="ex">-march=native</span> <span class="at">-mtune</span><span class="op">=</span>native <span class="at">-fPIC</span></span>
-<span id="cb37-2"><a href="slurm.html#cb37-2" tabindex="-1"></a><span class="va">CXX14</span><span class="op">=</span>g++</span></code></pre></div>
+<div class="sourceCode" id="cb38"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb38-1"><a href="slurm.html#cb38-1" tabindex="-1"></a><span class="va">CXX14FLAGS</span><span class="op">=</span>-O3 <span class="ex">-march=native</span> <span class="at">-mtune</span><span class="op">=</span>native <span class="at">-fPIC</span></span>
+<span id="cb38-2"><a href="slurm.html#cb38-2" tabindex="-1"></a><span class="va">CXX14</span><span class="op">=</span>g++</span></code></pre></div>
 <p>Alternatively, create an R script with the following code, and run it on Sherlock:</p>
-<pre class="code4"><code>dotR = file.path(Sys.getenv(&quot;HOME&quot;), &quot;.R&quot;)
+<pre class="code5"><code>dotR = file.path(Sys.getenv(&quot;HOME&quot;), &quot;.R&quot;)
 if (!file.exists(dotR)) dir.create(dotR)
 
 M = file.path(dotR, &quot;Makevars&quot;)
@@ -417,50 +447,50 @@ cat(&quot;\nCXX14FLAGS=-O3 -march=native -mtune=native -fPIC&quot;,
 </div>
 <div id="moving-files-to-sherlock" class="section level2 hasAnchor" number="15.2">
 <h2><span class="header-section-number">15.2</span> Moving files to Sherlock<a href="slurm.html#moving-files-to-sherlock" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>The <code>$HOME</code> directory is a good place to store code and small test files (quota: 15 GB per user). Save large files to the <code>$SCRATCH</code> directory (quota: 100 TB per user). You can read more about storage options on Sherlock <a href="https://www.sherlock.stanford.edu/docs/storage/">here</a>. On the <code>$SCRATCH</code> directory, files that are not modified after 90 days are automatically deleted. For this reason, it’s best to create a bash script that records the file transfer process for a given project. See example code below:</p>
-<div class="sourceCode" id="cb39"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb39-1"><a href="slurm.html#cb39-1" tabindex="-1"></a><span class="co"># note: the following steps should be done from your local </span></span>
-<span id="cb39-2"><a href="slurm.html#cb39-2" tabindex="-1"></a><span class="co"># (not after ssh-ing into sherlock)</span></span>
-<span id="cb39-3"><a href="slurm.html#cb39-3" tabindex="-1"></a></span>
-<span id="cb39-4"><a href="slurm.html#cb39-4" tabindex="-1"></a><span class="co"># securely transfer folders from Box to sherlock home directory</span></span>
-<span id="cb39-5"><a href="slurm.html#cb39-5" tabindex="-1"></a><span class="co"># note: the -r option is for folders and is not needed for files</span></span>
-<span id="cb39-6"><a href="slurm.html#cb39-6" tabindex="-1"></a><span class="fu">scp</span> <span class="at">-r</span> <span class="st">&quot;Box/malaria-project/folder-1/&quot;</span> USERNAME@login.sherlock.stanford.edu:/home/users/USERNAME/</span>
-<span id="cb39-7"><a href="slurm.html#cb39-7" tabindex="-1"></a></span>
-<span id="cb39-8"><a href="slurm.html#cb39-8" tabindex="-1"></a><span class="co"># securely transfer folders from Box to your sherlock scratch directory</span></span>
-<span id="cb39-9"><a href="slurm.html#cb39-9" tabindex="-1"></a><span class="fu">scp</span> <span class="at">-r</span> <span class="st">&quot;Box/malaria-project/folder-2/&quot;</span> USERNAME@login.sherlock.stanford.edu:/scratch/users/USERNAME/</span>
-<span id="cb39-10"><a href="slurm.html#cb39-10" tabindex="-1"></a></span>
-<span id="cb39-11"><a href="slurm.html#cb39-11" tabindex="-1"></a><span class="co"># securely transfer folders from Box to our shared scratch directory</span></span>
-<span id="cb39-12"><a href="slurm.html#cb39-12" tabindex="-1"></a><span class="fu">scp</span> <span class="at">-r</span> <span class="st">&quot;Box/malaria-project/folder-3/&quot;</span> USERNAME@login.sherlock.stanford.edu:/scratch/group/jadebc/</span></code></pre></div>
+<p>For this reason, it’s best to create a bash script that records the file transfer process for a given project. See example code below:</p>
+<div class="sourceCode" id="cb40"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb40-1"><a href="slurm.html#cb40-1" tabindex="-1"></a><span class="co"># note: the following steps should be done from your local </span></span>
+<span id="cb40-2"><a href="slurm.html#cb40-2" tabindex="-1"></a><span class="co"># (not after ssh-ing into sherlock)</span></span>
+<span id="cb40-3"><a href="slurm.html#cb40-3" tabindex="-1"></a></span>
+<span id="cb40-4"><a href="slurm.html#cb40-4" tabindex="-1"></a><span class="co"># securely transfer folders from Box to sherlock home directory</span></span>
+<span id="cb40-5"><a href="slurm.html#cb40-5" tabindex="-1"></a><span class="co"># note: the -r option is for folders and is not needed for files</span></span>
+<span id="cb40-6"><a href="slurm.html#cb40-6" tabindex="-1"></a><span class="fu">scp</span> <span class="at">-r</span> <span class="st">&quot;Box/malaria-project/folder-1/&quot;</span> USERNAME@login.sherlock.stanford.edu:/home/users/USERNAME/</span>
+<span id="cb40-7"><a href="slurm.html#cb40-7" tabindex="-1"></a></span>
+<span id="cb40-8"><a href="slurm.html#cb40-8" tabindex="-1"></a><span class="co"># securely transfer folders from Box to your sherlock scratch directory</span></span>
+<span id="cb40-9"><a href="slurm.html#cb40-9" tabindex="-1"></a><span class="fu">scp</span> <span class="at">-r</span> <span class="st">&quot;Box/malaria-project/folder-2/&quot;</span> USERNAME@login.sherlock.stanford.edu:/scratch/users/USERNAME/</span>
+<span id="cb40-10"><a href="slurm.html#cb40-10" tabindex="-1"></a></span>
+<span id="cb40-11"><a href="slurm.html#cb40-11" tabindex="-1"></a><span class="co"># securely transfer folders from Box to our shared scratch directory</span></span>
+<span id="cb40-12"><a href="slurm.html#cb40-12" tabindex="-1"></a><span class="fu">scp</span> <span class="at">-r</span> <span class="st">&quot;Box/malaria-project/folder-3/&quot;</span> USERNAME@login.sherlock.stanford.edu:/scratch/group/jadebc/</span></code></pre></div>
 </div>
 <div id="installing-packages-on-sherlock" class="section level2 hasAnchor" number="15.3">
 <h2><span class="header-section-number">15.3</span> Installing packages on Sherlock<a href="slurm.html#installing-packages-on-sherlock" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>When you begin working on Sherlock, you will most likely encounter problems with installing packages. To install packages, login to Sherlock on the command line and open a development node using the command <code>sdev</code>. Do not attempt to do this in the RStudio Server (see next section), as you will have to re-do it for every new session you open.</p>
-<div class="sourceCode" id="cb40"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb40-1"><a href="slurm.html#cb40-1" tabindex="-1"></a><span class="fu">ssh</span> USERNAME@login.sherlock.stanford.edu</span>
-<span id="cb40-2"><a href="slurm.html#cb40-2" tabindex="-1"></a></span>
-<span id="cb40-3"><a href="slurm.html#cb40-3" tabindex="-1"></a><span class="ex">sdev</span></span></code></pre></div>
+<div class="sourceCode" id="cb41"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb41-1"><a href="slurm.html#cb41-1" tabindex="-1"></a><span class="fu">ssh</span> USERNAME@login.sherlock.stanford.edu</span>
+<span id="cb41-2"><a href="slurm.html#cb41-2" tabindex="-1"></a></span>
+<span id="cb41-3"><a href="slurm.html#cb41-3" tabindex="-1"></a><span class="ex">sdev</span></span></code></pre></div>
 <p>There is a package installation <a href="https://drive.google.com/file/d/1eybh4j_G-r3pMZBCVA4QHoWZBo_cW5zb/view">file</a> explicitly written for Sherlock that you should run before testing any code and sourcing the configuration file. You should only have to install packages once. Sherlock requires that you specify the repository where the package is downloaded from. You may also need to add an additional argument to install.packages to prevent the packages from locking after installation:</p>
-<div class="sourceCode" id="cb41"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb41-1"><a href="slurm.html#cb41-1" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="sc">&lt;</span>PACKAGE NAME<span class="sc">&gt;</span>, <span class="at">repos=</span>“http<span class="sc">:</span><span class="er">//</span>cran.us.ur<span class="sc">-</span>project.org”, </span>
-<span id="cb41-2"><a href="slurm.html#cb41-2" tabindex="-1"></a>                  <span class="at">INSTALL_opts =</span> <span class="st">&quot;--no-lock&quot;&quot;)</span></span></code></pre></div>
+<div class="sourceCode" id="cb42"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb42-1"><a href="slurm.html#cb42-1" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="sc">&lt;</span>PACKAGE NAME<span class="sc">&gt;</span>, <span class="at">repos=</span>“http<span class="sc">:</span><span class="er">//</span>cran.us.ur<span class="sc">-</span>project.org”, </span>
+<span id="cb42-2"><a href="slurm.html#cb42-2" tabindex="-1"></a>                  <span class="at">INSTALL_opts =</span> <span class="st">&quot;--no-lock&quot;&quot;)</span></span></code></pre></div>
 <p>In order for some R packages to work on Sherlock, it is necessary to load specific software modules before running R. These must be loaded in Sherlock each time you want to use the package in R. For example, for spatial and random effects analyses, you may need the modules/packages below. These modules must also be loaded on the command line prior to opening R in order for package installation to work.</p>
-<div class="sourceCode" id="cb42"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb42-1"><a href="slurm.html#cb42-1" tabindex="-1"></a><span class="ex">module</span> <span class="at">--force</span> purge <span class="co"># remove any previously loaded modules, including math and devel</span></span>
-<span id="cb42-2"><a href="slurm.html#cb42-2" tabindex="-1"></a><span class="ex">module</span> load math</span>
-<span id="cb42-3"><a href="slurm.html#cb42-3" tabindex="-1"></a><span class="ex">module</span> load math gmp/6.1.2</span>
-<span id="cb42-4"><a href="slurm.html#cb42-4" tabindex="-1"></a><span class="ex">module</span> load devel</span>
-<span id="cb42-5"><a href="slurm.html#cb42-5" tabindex="-1"></a><span class="ex">module</span> load gcc/10</span>
-<span id="cb42-6"><a href="slurm.html#cb42-6" tabindex="-1"></a><span class="ex">module</span> load system</span>
-<span id="cb42-7"><a href="slurm.html#cb42-7" tabindex="-1"></a><span class="ex">module</span> load json-glib/1.4.4</span>
-<span id="cb42-8"><a href="slurm.html#cb42-8" tabindex="-1"></a><span class="ex">module</span> load curl/7.81.0</span>
-<span id="cb42-9"><a href="slurm.html#cb42-9" tabindex="-1"></a><span class="ex">module</span> load physics</span>
-<span id="cb42-10"><a href="slurm.html#cb42-10" tabindex="-1"></a><span class="ex">module</span> load physics udunits geos</span>
-<span id="cb42-11"><a href="slurm.html#cb42-11" tabindex="-1"></a><span class="ex">module</span> load physics gdal/2.2.1 <span class="co"># for R/4.0.2</span></span>
-<span id="cb42-12"><a href="slurm.html#cb42-12" tabindex="-1"></a><span class="ex">module</span> load physics proj/4.9.3 <span class="co"># for R/4.0.2</span></span>
-<span id="cb42-13"><a href="slurm.html#cb42-13" tabindex="-1"></a><span class="ex">module</span> load pandoc/2.7.3</span>
-<span id="cb42-14"><a href="slurm.html#cb42-14" tabindex="-1"></a></span>
-<span id="cb42-15"><a href="slurm.html#cb42-15" tabindex="-1"></a><span class="ex">module</span> load R/4.0.2</span>
-<span id="cb42-16"><a href="slurm.html#cb42-16" tabindex="-1"></a></span>
-<span id="cb42-17"><a href="slurm.html#cb42-17" tabindex="-1"></a><span class="ex">R</span> <span class="co"># Open R in the Shell window to install individual packages or test code</span></span>
-<span id="cb42-18"><a href="slurm.html#cb42-18" tabindex="-1"></a><span class="ex">Rscript</span> install-packages-sherlock.R <span class="co"># Alternatively, run the entire package installation script in the Shell window</span></span></code></pre></div>
+<div class="sourceCode" id="cb43"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb43-1"><a href="slurm.html#cb43-1" tabindex="-1"></a><span class="ex">module</span> <span class="at">--force</span> purge <span class="co"># remove any previously loaded modules, including math and devel</span></span>
+<span id="cb43-2"><a href="slurm.html#cb43-2" tabindex="-1"></a><span class="ex">module</span> load math</span>
+<span id="cb43-3"><a href="slurm.html#cb43-3" tabindex="-1"></a><span class="ex">module</span> load math gmp/6.1.2</span>
+<span id="cb43-4"><a href="slurm.html#cb43-4" tabindex="-1"></a><span class="ex">module</span> load devel</span>
+<span id="cb43-5"><a href="slurm.html#cb43-5" tabindex="-1"></a><span class="ex">module</span> load gcc/10</span>
+<span id="cb43-6"><a href="slurm.html#cb43-6" tabindex="-1"></a><span class="ex">module</span> load system</span>
+<span id="cb43-7"><a href="slurm.html#cb43-7" tabindex="-1"></a><span class="ex">module</span> load json-glib/1.4.4</span>
+<span id="cb43-8"><a href="slurm.html#cb43-8" tabindex="-1"></a><span class="ex">module</span> load curl/7.81.0</span>
+<span id="cb43-9"><a href="slurm.html#cb43-9" tabindex="-1"></a><span class="ex">module</span> load physics</span>
+<span id="cb43-10"><a href="slurm.html#cb43-10" tabindex="-1"></a><span class="ex">module</span> load physics udunits geos</span>
+<span id="cb43-11"><a href="slurm.html#cb43-11" tabindex="-1"></a><span class="ex">module</span> load physics gdal/2.2.1 <span class="co"># for R/4.0.2</span></span>
+<span id="cb43-12"><a href="slurm.html#cb43-12" tabindex="-1"></a><span class="ex">module</span> load physics proj/4.9.3 <span class="co"># for R/4.0.2</span></span>
+<span id="cb43-13"><a href="slurm.html#cb43-13" tabindex="-1"></a><span class="ex">module</span> load pandoc/2.7.3</span>
+<span id="cb43-14"><a href="slurm.html#cb43-14" tabindex="-1"></a></span>
+<span id="cb43-15"><a href="slurm.html#cb43-15" tabindex="-1"></a><span class="ex">module</span> load R/4.0.2</span>
+<span id="cb43-16"><a href="slurm.html#cb43-16" tabindex="-1"></a></span>
+<span id="cb43-17"><a href="slurm.html#cb43-17" tabindex="-1"></a><span class="ex">R</span> <span class="co"># Open R in the Shell window to install individual packages or test code</span></span>
+<span id="cb43-18"><a href="slurm.html#cb43-18" tabindex="-1"></a><span class="ex">Rscript</span> install-packages-sherlock.R <span class="co"># Alternatively, run the entire package installation script in the Shell window</span></span></code></pre></div>
 <p>Figuring out the issues with some packages will require some trial and error. If you are still encountering problems installing a package, you may have to install other dependencies manually by reading through the error messages. If you try to install a dependency from CRAN and it isn’t working, it may be a module. You can search for it using the <code>module spider</code> command:</p>
-<div class="sourceCode" id="cb43"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb43-1"><a href="slurm.html#cb43-1" tabindex="-1"></a><span class="ex">module</span> spider DEPENDENCY NAME</span></code></pre></div>
+<div class="sourceCode" id="cb44"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb44-1"><a href="slurm.html#cb44-1" tabindex="-1"></a><span class="ex">module</span> spider DEPENDENCY NAME</span></code></pre></div>
 <p>However, you can also reach out to the Sherlock team for help. You can email them at <a href="mailto:srcc-support@stanford.edu" class="email">srcc-support@stanford.edu</a>. They also hold <a href="https://jumpstartsrcc.sites.stanford.edu/events/series/sherlock-office-hours">office hours</a>.</p>
 </div>
 <div id="testing-your-code" class="section level2 hasAnchor" number="15.4">
@@ -470,17 +500,17 @@ cat(&quot;\nCXX14FLAGS=-O3 -march=native -mtune=native -fPIC&quot;,
 <h3><span class="header-section-number">15.4.1</span> The command line<a href="slurm.html#the-command-line" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>There are two main ways to explore and test code on Sherlock. The first way is best for users who are comfortable working on the command line and editing code in base R. Even if you are not comfortable yet, this is probably the better way because these commands will transfer between Sherlock and other cluster computers using Slurm.</p>
 <p>Typically, you will want to initially test your scripts by initiating a development node using the command <code>sdev</code>. This will allocate a small amount of computing resources for 1 hour. You can access R via command line using the following code.</p>
-<div class="sourceCode" id="cb44"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb44-1"><a href="slurm.html#cb44-1" tabindex="-1"></a><span class="co"># open development node</span></span>
-<span id="cb44-2"><a href="slurm.html#cb44-2" tabindex="-1"></a><span class="ex">sdev</span></span>
-<span id="cb44-3"><a href="slurm.html#cb44-3" tabindex="-1"></a></span>
-<span id="cb44-4"><a href="slurm.html#cb44-4" tabindex="-1"></a><span class="co"># Load all the modules required by the packages you are using</span></span>
-<span id="cb44-5"><a href="slurm.html#cb44-5" tabindex="-1"></a><span class="ex">module</span> load MODULE NAME  </span>
-<span id="cb44-6"><a href="slurm.html#cb44-6" tabindex="-1"></a></span>
-<span id="cb44-7"><a href="slurm.html#cb44-7" tabindex="-1"></a><span class="co"># Load R (default version)*</span></span>
-<span id="cb44-8"><a href="slurm.html#cb44-8" tabindex="-1"></a><span class="ex">module</span> load R </span>
-<span id="cb44-9"><a href="slurm.html#cb44-9" tabindex="-1"></a></span>
-<span id="cb44-10"><a href="slurm.html#cb44-10" tabindex="-1"></a><span class="co"># initiate R in command line</span></span>
-<span id="cb44-11"><a href="slurm.html#cb44-11" tabindex="-1"></a><span class="ex">R</span></span></code></pre></div>
+<div class="sourceCode" id="cb45"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb45-1"><a href="slurm.html#cb45-1" tabindex="-1"></a><span class="co"># open development node</span></span>
+<span id="cb45-2"><a href="slurm.html#cb45-2" tabindex="-1"></a><span class="ex">sdev</span></span>
+<span id="cb45-3"><a href="slurm.html#cb45-3" tabindex="-1"></a></span>
+<span id="cb45-4"><a href="slurm.html#cb45-4" tabindex="-1"></a><span class="co"># Load all the modules required by the packages you are using</span></span>
+<span id="cb45-5"><a href="slurm.html#cb45-5" tabindex="-1"></a><span class="ex">module</span> load MODULE NAME  </span>
+<span id="cb45-6"><a href="slurm.html#cb45-6" tabindex="-1"></a></span>
+<span id="cb45-7"><a href="slurm.html#cb45-7" tabindex="-1"></a><span class="co"># Load R (default version)*</span></span>
+<span id="cb45-8"><a href="slurm.html#cb45-8" tabindex="-1"></a><span class="ex">module</span> load R </span>
+<span id="cb45-9"><a href="slurm.html#cb45-9" tabindex="-1"></a></span>
+<span id="cb45-10"><a href="slurm.html#cb45-10" tabindex="-1"></a><span class="co"># initiate R in command line</span></span>
+<span id="cb45-11"><a href="slurm.html#cb45-11" tabindex="-1"></a><span class="ex">R</span></span></code></pre></div>
 <p>*Note: for collaboration purposes, it’s best for everyone to work with one version of R. Check what version is being used for the project you are working on. Some packages only work with some versions of R, so it’s best to keep it consistent.</p>
 </div>
 <div id="the-sherlock-ondemand-dashboard" class="section level3 hasAnchor" number="15.4.2">
@@ -492,14 +522,14 @@ cat(&quot;\nCXX14FLAGS=-O3 -march=native -mtune=native -fPIC&quot;,
 <div id="filepaths-configuration-on-sherlock" class="section level3 hasAnchor" number="15.4.3">
 <h3><span class="header-section-number">15.4.3</span> Filepaths &amp; configuration on Sherlock<a href="slurm.html#filepaths-configuration-on-sherlock" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>In most cases, you will want to test that the file paths work correctly on Sherlock. You will likely need to add code to the configuration file in the project repository that specifies Sherlock-specific file paths. Here is an example:</p>
-<div class="sourceCode" id="cb45"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb45-1"><a href="slurm.html#cb45-1" tabindex="-1"></a><span class="co"># set sherlock-specific file paths</span></span>
-<span id="cb45-2"><a href="slurm.html#cb45-2" tabindex="-1"></a><span class="cf">if</span><span class="kw">(</span><span class="ex">Sys.getenv</span><span class="er">(</span><span class="st">&quot;LMOD_SYSHOST&quot;</span><span class="kw">)</span><span class="ex">==</span><span class="st">&quot;sherlock&quot;</span><span class="kw">){</span></span>
-<span id="cb45-3"><a href="slurm.html#cb45-3" tabindex="-1"></a>  </span>
-<span id="cb45-4"><a href="slurm.html#cb45-4" tabindex="-1"></a>  <span class="ex">sherlock_path</span> = paste0<span class="er">(</span><span class="ex">Sys.getenv</span><span class="er">(</span><span class="st">&quot;HOME&quot;</span><span class="kw">)</span><span class="ex">,</span> <span class="st">&quot;/malaria-project/&quot;</span><span class="kw">)</span></span>
-<span id="cb45-5"><a href="slurm.html#cb45-5" tabindex="-1"></a>  </span>
-<span id="cb45-6"><a href="slurm.html#cb45-6" tabindex="-1"></a>  <span class="ex">data_path</span> = paste0<span class="er">(</span><span class="ex">sherlock_path,</span> <span class="st">&quot;data/&quot;</span><span class="kw">)</span></span>
-<span id="cb45-7"><a href="slurm.html#cb45-7" tabindex="-1"></a>  <span class="ex">results_path</span> = paste0<span class="er">(</span><span class="ex">sherlock_path,</span> <span class="st">&quot;results/&quot;</span><span class="kw">)</span></span>
-<span id="cb45-8"><a href="slurm.html#cb45-8" tabindex="-1"></a><span class="kw">}</span></span></code></pre></div>
+<div class="sourceCode" id="cb46"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb46-1"><a href="slurm.html#cb46-1" tabindex="-1"></a><span class="co"># set sherlock-specific file paths</span></span>
+<span id="cb46-2"><a href="slurm.html#cb46-2" tabindex="-1"></a><span class="cf">if</span><span class="kw">(</span><span class="ex">Sys.getenv</span><span class="er">(</span><span class="st">&quot;LMOD_SYSHOST&quot;</span><span class="kw">)</span><span class="ex">==</span><span class="st">&quot;sherlock&quot;</span><span class="kw">){</span></span>
+<span id="cb46-3"><a href="slurm.html#cb46-3" tabindex="-1"></a>  </span>
+<span id="cb46-4"><a href="slurm.html#cb46-4" tabindex="-1"></a>  <span class="ex">sherlock_path</span> = paste0<span class="er">(</span><span class="ex">Sys.getenv</span><span class="er">(</span><span class="st">&quot;HOME&quot;</span><span class="kw">)</span><span class="ex">,</span> <span class="st">&quot;/malaria-project/&quot;</span><span class="kw">)</span></span>
+<span id="cb46-5"><a href="slurm.html#cb46-5" tabindex="-1"></a>  </span>
+<span id="cb46-6"><a href="slurm.html#cb46-6" tabindex="-1"></a>  <span class="ex">data_path</span> = paste0<span class="er">(</span><span class="ex">sherlock_path,</span> <span class="st">&quot;data/&quot;</span><span class="kw">)</span></span>
+<span id="cb46-7"><a href="slurm.html#cb46-7" tabindex="-1"></a>  <span class="ex">results_path</span> = paste0<span class="er">(</span><span class="ex">sherlock_path,</span> <span class="st">&quot;results/&quot;</span><span class="kw">)</span></span>
+<span id="cb46-8"><a href="slurm.html#cb46-8" tabindex="-1"></a><span class="kw">}</span></span></code></pre></div>
 </div>
 </div>
 <div id="storage-group-storage-access" class="section level2 hasAnchor" number="15.5">
@@ -507,11 +537,11 @@ cat(&quot;\nCXX14FLAGS=-O3 -march=native -mtune=native -fPIC&quot;,
 <div id="individual-storage" class="section level3 hasAnchor" number="15.5.1">
 <h3><span class="header-section-number">15.5.1</span> Individual storage<a href="slurm.html#individual-storage" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>There are multiple places to store your files on Sherlock. Each user has their own <code>$HOME</code> directory as well as a <code>$SCRATCH</code> directory. These are directories that can be accessed via the command line once you’ve logged in to Sherlock:</p>
-<div class="sourceCode" id="cb46"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb46-1"><a href="slurm.html#cb46-1" tabindex="-1"></a><span class="bu">cd</span> <span class="va">$HOME</span> </span>
-<span id="cb46-2"><a href="slurm.html#cb46-2" tabindex="-1"></a><span class="bu">cd</span> /home/users/USERNAME <span class="co"># Alternatively, use the full path</span></span>
-<span id="cb46-3"><a href="slurm.html#cb46-3" tabindex="-1"></a></span>
-<span id="cb46-4"><a href="slurm.html#cb46-4" tabindex="-1"></a><span class="bu">cd</span> <span class="va">$SCRATCH</span></span>
-<span id="cb46-5"><a href="slurm.html#cb46-5" tabindex="-1"></a><span class="bu">cd</span> /scratch/users/USERNAME <span class="co"># Full path</span></span></code></pre></div>
+<div class="sourceCode" id="cb47"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb47-1"><a href="slurm.html#cb47-1" tabindex="-1"></a><span class="bu">cd</span> <span class="va">$HOME</span> </span>
+<span id="cb47-2"><a href="slurm.html#cb47-2" tabindex="-1"></a><span class="bu">cd</span> /home/users/USERNAME <span class="co"># Alternatively, use the full path</span></span>
+<span id="cb47-3"><a href="slurm.html#cb47-3" tabindex="-1"></a></span>
+<span id="cb47-4"><a href="slurm.html#cb47-4" tabindex="-1"></a><span class="bu">cd</span> <span class="va">$SCRATCH</span></span>
+<span id="cb47-5"><a href="slurm.html#cb47-5" tabindex="-1"></a><span class="bu">cd</span> /scratch/users/USERNAME <span class="co"># Full path</span></span></code></pre></div>
 <p>You can also navigate to these using the File Explorer on Sherlock OnDemand.</p>
 <p><code>$HOME</code> has a volume quota of 15 GB. <code>$SCRATCH</code> has a volume quota of 100 TB, but files here get deleted 90 days after their last modification. Thus, use <code>$SCRACTH</code> for test files, exploratory analyses, and temporary storage. Use <code>$HOME</code> for long-term storage of important files and more finalized analyses.</p>
 <p>You can read more about storage options on Sherlock <a href="https://www.sherlock.stanford.edu/docs/storage/">here</a>.</p>
@@ -519,19 +549,19 @@ cat(&quot;\nCXX14FLAGS=-O3 -march=native -mtune=native -fPIC&quot;,
 <div id="group-storage" class="section level3 hasAnchor" number="15.5.2">
 <h3><span class="header-section-number">15.5.2</span> Group storage<a href="slurm.html#group-storage" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>The lab also has a <code>$GROUP_HOME</code> and a <code>$GROUP_SCRATCH</code> to store files for collaborative use. <code>$GROUP_HOME</code> has a volume quota of 1 TB and infinite retention time, whereas <code>$GROUP_SCRATCH</code> has a volume quota of 100 TB and the same 90-day retention limit. You can access these via the command line or navigate to them using the File Explorer:</p>
-<div class="sourceCode" id="cb47"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb47-1"><a href="slurm.html#cb47-1" tabindex="-1"></a><span class="bu">cd</span> <span class="va">$GROUP_HOME</span></span>
-<span id="cb47-2"><a href="slurm.html#cb47-2" tabindex="-1"></a><span class="bu">cd</span> /home/groups/jadebc</span>
-<span id="cb47-3"><a href="slurm.html#cb47-3" tabindex="-1"></a></span>
-<span id="cb47-4"><a href="slurm.html#cb47-4" tabindex="-1"></a><span class="bu">cd</span> <span class="va">$GROUP_SCRATCH</span></span>
-<span id="cb47-5"><a href="slurm.html#cb47-5" tabindex="-1"></a><span class="bu">cd</span> /scratch/groups/jadebc</span></code></pre></div>
+<div class="sourceCode" id="cb48"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb48-1"><a href="slurm.html#cb48-1" tabindex="-1"></a><span class="bu">cd</span> <span class="va">$GROUP_HOME</span></span>
+<span id="cb48-2"><a href="slurm.html#cb48-2" tabindex="-1"></a><span class="bu">cd</span> /home/groups/jadebc</span>
+<span id="cb48-3"><a href="slurm.html#cb48-3" tabindex="-1"></a></span>
+<span id="cb48-4"><a href="slurm.html#cb48-4" tabindex="-1"></a><span class="bu">cd</span> <span class="va">$GROUP_SCRATCH</span></span>
+<span id="cb48-5"><a href="slurm.html#cb48-5" tabindex="-1"></a><span class="bu">cd</span> /scratch/groups/jadebc</span></code></pre></div>
 <p>However, saving files to group storage can be tricky. You can try using the scp command in the section “Moving files to Sherlock” to see if you have permission to add files to group directories. Read the next section to ensure any directories you create have the right permissions.</p>
 </div>
 <div id="folder-permissions" class="section level3 hasAnchor" number="15.5.3">
 <h3><span class="header-section-number">15.5.3</span> Folder permissions<a href="slurm.html#folder-permissions" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Generally, when we put folders in <code>$GROUP_HOME</code> or <code>$GROUP_SCRATCH</code>, it is so that we can collaborate on an analysis within the research group, so multiple people need to be able to access the folders. If you create a new folder in <code>$GROUP_HOME</code> or <code>$GROUP_SCRATCH</code>, please check the folder’s permissions to ensure that other group members are able to access its contents. To check the permissions of a folder, navigate to the level above it, and enter <code>ls -l</code>. You will see output like this:</p>
-<div class="sourceCode" id="cb48"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb48-1"><a href="slurm.html#cb48-1" tabindex="-1"></a><span class="ex">drwxrwxrwx</span> 2 jadebc jadebc  2204 Jun 17 13:12 myfolder</span></code></pre></div>
+<div class="sourceCode" id="cb49"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb49-1"><a href="slurm.html#cb49-1" tabindex="-1"></a><span class="ex">drwxrwxrwx</span> 2 jadebc jadebc  2204 Jun 17 13:12 myfolder</span></code></pre></div>
 <p>Please review <a href="https://www.chriswrites.com/how-to-change-file-permissions-using-the-terminal/">this website</a> to learn how to interpret the code on the left side of this output. The website also tells you how to change folder permissions. In order to ensure that all users and group members are able to access a folder’s contents, you can use the following command:</p>
-<div class="sourceCode" id="cb49"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb49-1"><a href="slurm.html#cb49-1" tabindex="-1"></a><span class="fu">chmod</span> ugo+rwx FOLDER_NAME</span></code></pre></div>
+<div class="sourceCode" id="cb50"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb50-1"><a href="slurm.html#cb50-1" tabindex="-1"></a><span class="fu">chmod</span> ugo+rwx FOLDER_NAME</span></code></pre></div>
 </div>
 </div>
 <div id="running-big-jobs-1" class="section level2 hasAnchor" number="15.6">
@@ -548,37 +578,37 @@ cat(&quot;\nCXX14FLAGS=-O3 -march=native -mtune=native -fPIC&quot;,
 <li><code>time=47:59:00</code>: Set maximum run time to 47 hours and 59 minutes. If you don’t include this option, Sherlock will automatically exit scripts after 2 hours of run time.</li>
 </ul>
 <p>The file <code>analysis.out</code> will contain the log file for the R script <code>analysis.R</code>.</p>
-<div class="sourceCode" id="cb50"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb50-1"><a href="slurm.html#cb50-1" tabindex="-1"></a><span class="co">#!/bin/bash</span></span>
-<span id="cb50-2"><a href="slurm.html#cb50-2" tabindex="-1"></a></span>
-<span id="cb50-3"><a href="slurm.html#cb50-3" tabindex="-1"></a><span class="co">#SBATCH --job-name=run_inc</span></span>
-<span id="cb50-4"><a href="slurm.html#cb50-4" tabindex="-1"></a><span class="co">#SBATCH --begin=now</span></span>
-<span id="cb50-5"><a href="slurm.html#cb50-5" tabindex="-1"></a><span class="co">#SBATCH --dependency=singleton</span></span>
-<span id="cb50-6"><a href="slurm.html#cb50-6" tabindex="-1"></a><span class="co">#SBATCH --mail-type=ALL</span></span>
-<span id="cb50-7"><a href="slurm.html#cb50-7" tabindex="-1"></a><span class="co">#SBATCH --cpus-per-task=16</span></span>
-<span id="cb50-8"><a href="slurm.html#cb50-8" tabindex="-1"></a><span class="co">#SBATCH --mem=64G</span></span>
-<span id="cb50-9"><a href="slurm.html#cb50-9" tabindex="-1"></a><span class="co">#SBATCH --mem=64G</span></span>
-<span id="cb50-10"><a href="slurm.html#cb50-10" tabindex="-1"></a><span class="co">#SBATCH --output=00-run_inc_log.out</span></span>
-<span id="cb50-11"><a href="slurm.html#cb50-11" tabindex="-1"></a><span class="co">#SBATCH --time=47:59:00</span></span>
-<span id="cb50-12"><a href="slurm.html#cb50-12" tabindex="-1"></a></span>
-<span id="cb50-13"><a href="slurm.html#cb50-13" tabindex="-1"></a><span class="bu">cd</span> <span class="va">$HOME</span>/malaria-code-repo/2-analysis/</span>
-<span id="cb50-14"><a href="slurm.html#cb50-14" tabindex="-1"></a></span>
-<span id="cb50-15"><a href="slurm.html#cb50-15" tabindex="-1"></a><span class="ex">module</span> purge </span>
-<span id="cb50-16"><a href="slurm.html#cb50-16" tabindex="-1"></a></span>
-<span id="cb50-17"><a href="slurm.html#cb50-17" tabindex="-1"></a><span class="co"># load R version 4.0.2 (required for certain packages)</span></span>
-<span id="cb50-18"><a href="slurm.html#cb50-18" tabindex="-1"></a><span class="ex">module</span> load R/4.0.2</span>
-<span id="cb50-19"><a href="slurm.html#cb50-19" tabindex="-1"></a></span>
-<span id="cb50-20"><a href="slurm.html#cb50-20" tabindex="-1"></a><span class="co"># load gcc, a C++ compiler (required for certain packages)</span></span>
-<span id="cb50-21"><a href="slurm.html#cb50-21" tabindex="-1"></a><span class="ex">module</span> load gcc/10</span>
-<span id="cb50-22"><a href="slurm.html#cb50-22" tabindex="-1"></a></span>
-<span id="cb50-23"><a href="slurm.html#cb50-23" tabindex="-1"></a><span class="co"># load software required for spatial analyses in R</span></span>
-<span id="cb50-24"><a href="slurm.html#cb50-24" tabindex="-1"></a><span class="ex">module</span> load physics gdal</span>
-<span id="cb50-25"><a href="slurm.html#cb50-25" tabindex="-1"></a><span class="ex">module</span> load physics proj</span>
-<span id="cb50-26"><a href="slurm.html#cb50-26" tabindex="-1"></a></span>
-<span id="cb50-27"><a href="slurm.html#cb50-27" tabindex="-1"></a><span class="ex">R</span> CMD BATCH <span class="at">--no-save</span> analysis.R analysis.out</span></code></pre></div>
+<div class="sourceCode" id="cb51"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb51-1"><a href="slurm.html#cb51-1" tabindex="-1"></a><span class="co">#!/bin/bash</span></span>
+<span id="cb51-2"><a href="slurm.html#cb51-2" tabindex="-1"></a></span>
+<span id="cb51-3"><a href="slurm.html#cb51-3" tabindex="-1"></a><span class="co">#SBATCH --job-name=run_inc</span></span>
+<span id="cb51-4"><a href="slurm.html#cb51-4" tabindex="-1"></a><span class="co">#SBATCH --begin=now</span></span>
+<span id="cb51-5"><a href="slurm.html#cb51-5" tabindex="-1"></a><span class="co">#SBATCH --dependency=singleton</span></span>
+<span id="cb51-6"><a href="slurm.html#cb51-6" tabindex="-1"></a><span class="co">#SBATCH --mail-type=ALL</span></span>
+<span id="cb51-7"><a href="slurm.html#cb51-7" tabindex="-1"></a><span class="co">#SBATCH --cpus-per-task=16</span></span>
+<span id="cb51-8"><a href="slurm.html#cb51-8" tabindex="-1"></a><span class="co">#SBATCH --mem=64G</span></span>
+<span id="cb51-9"><a href="slurm.html#cb51-9" tabindex="-1"></a><span class="co">#SBATCH --mem=64G</span></span>
+<span id="cb51-10"><a href="slurm.html#cb51-10" tabindex="-1"></a><span class="co">#SBATCH --output=00-run_inc_log.out</span></span>
+<span id="cb51-11"><a href="slurm.html#cb51-11" tabindex="-1"></a><span class="co">#SBATCH --time=47:59:00</span></span>
+<span id="cb51-12"><a href="slurm.html#cb51-12" tabindex="-1"></a></span>
+<span id="cb51-13"><a href="slurm.html#cb51-13" tabindex="-1"></a><span class="bu">cd</span> <span class="va">$HOME</span>/malaria-code-repo/2-analysis/</span>
+<span id="cb51-14"><a href="slurm.html#cb51-14" tabindex="-1"></a></span>
+<span id="cb51-15"><a href="slurm.html#cb51-15" tabindex="-1"></a><span class="ex">module</span> purge </span>
+<span id="cb51-16"><a href="slurm.html#cb51-16" tabindex="-1"></a></span>
+<span id="cb51-17"><a href="slurm.html#cb51-17" tabindex="-1"></a><span class="co"># load R version 4.0.2 (required for certain packages)</span></span>
+<span id="cb51-18"><a href="slurm.html#cb51-18" tabindex="-1"></a><span class="ex">module</span> load R/4.0.2</span>
+<span id="cb51-19"><a href="slurm.html#cb51-19" tabindex="-1"></a></span>
+<span id="cb51-20"><a href="slurm.html#cb51-20" tabindex="-1"></a><span class="co"># load gcc, a C++ compiler (required for certain packages)</span></span>
+<span id="cb51-21"><a href="slurm.html#cb51-21" tabindex="-1"></a><span class="ex">module</span> load gcc/10</span>
+<span id="cb51-22"><a href="slurm.html#cb51-22" tabindex="-1"></a></span>
+<span id="cb51-23"><a href="slurm.html#cb51-23" tabindex="-1"></a><span class="co"># load software required for spatial analyses in R</span></span>
+<span id="cb51-24"><a href="slurm.html#cb51-24" tabindex="-1"></a><span class="ex">module</span> load physics gdal</span>
+<span id="cb51-25"><a href="slurm.html#cb51-25" tabindex="-1"></a><span class="ex">module</span> load physics proj</span>
+<span id="cb51-26"><a href="slurm.html#cb51-26" tabindex="-1"></a></span>
+<span id="cb51-27"><a href="slurm.html#cb51-27" tabindex="-1"></a><span class="ex">R</span> CMD BATCH <span class="at">--no-save</span> analysis.R analysis.out</span></code></pre></div>
 <p>To submit this job, save the code in the chunk above in a script called <code>myjob.sh</code> and then enter the following command into terminal:</p>
-<div class="sourceCode" id="cb51"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb51-1"><a href="slurm.html#cb51-1" tabindex="-1"></a><span class="ex">sbatch</span> myjob.sh </span></code></pre></div>
+<div class="sourceCode" id="cb52"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb52-1"><a href="slurm.html#cb52-1" tabindex="-1"></a><span class="ex">sbatch</span> myjob.sh </span></code></pre></div>
 <p>To check on the status of your job, enter the following code into terminal:</p>
-<div class="sourceCode" id="cb52"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb52-1"><a href="slurm.html#cb52-1" tabindex="-1"></a><span class="ex">squeue</span> <span class="at">-u</span> <span class="va">$USERNAME</span></span></code></pre></div>
+<div class="sourceCode" id="cb53"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb53-1"><a href="slurm.html#cb53-1" tabindex="-1"></a><span class="ex">squeue</span> <span class="at">-u</span> <span class="va">$USERNAME</span></span></code></pre></div>
 
 </div>
 </div>

@@ -126,7 +126,7 @@
 
 \title{Grembi Lab Manual}
 \author{}
-\date{\vspace{-2.5em}Updated: 2025-04-03}
+\date{\vspace{-2.5em}Updated: 2025-04-23}
 
 \begin{document}
 \maketitle
@@ -184,6 +184,50 @@ Remember, data that looks like it does not contain identifiers to you might stil
 
 Team members who meet the \href{http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html}{ICMJE Definition of authorship} will be included as co-authors on scientific manuscripts.
 
+\section{Responsible Use of AI Tools in Our Lab}\label{responsible-use-of-ai-tools-in-our-lab}
+
+I encourage lab members to think of large language models (LLMs) and other AI tools the way we think about calculators or Wikipedia: they can be incredibly useful, but only if you already have an understanding of what you're doing. They're best used as assistants -- not as authorities or substitutes for careful thinking. This guide outlines how I expect AI tools to be used in our lab context. This guide was written with the help of ChatGPT.
+
+\subsection{Philosophy}\label{philosophy}
+
+AI tools can help us work more efficiently, learn more quickly, and get past sticking points -- whether that's debugging a script, brainstorming how to visualize data, or wading through a dense research article. I see them as part of the broader toolkit we use to support our work, like textbooks, search engines, or discussion with labmates. But just like those other tools, the usefulness of AI depends on the thoughtfulness of the person using it. It can help you think, but it can't do the thinking for you. Think of AI tools like a lab whiteboard: a place to sketch ideas, not publish results. It will not take responsibility for errors, misinterpretations, or ethical lapses. That's still on you.
+
+\subsection{Helpful and Encouraged Uses}\label{helpful-and-encouraged-uses}
+
+You're welcome to use AI tools to assist with tasks like:
+· Googling stuff! Even excluding Gemini, Google search uses AI
+· Getting help understanding a research paper or background topic
+· Brainstorming or refining ideas (e.g., for a figure, a method, or a statistical approach)
+· Getting feedback on a piece of writing you drafted
+· Asking for explanations of code behavior or MATLAB/R functions
+· Writing or revising your own code, as long as you understand what the code is doing
+· Generating visualizations or suggesting ways to summarize data
+
+It's fine to use AI to ``talk things out.'' Just don't stop there -- make sure you apply your own judgment and review anything it suggests carefully.
+
+\subsection{Use with Caution: Known Limitations}\label{use-with-caution-known-limitations}
+
+AI tools often sound confident even when they're wrong. They can fabricate citations, introduce subtle bugs in code, or suggest statistical approaches that don't fit your design. Some specific risks include:
+· Code suggestions might run but be logically incorrect
+· Statistical advice might not match your data or assumptions
+· Summaries of research papers can miss key details or invent conclusions
+·\\
+While AI tools are improving --- for example, ChatGPT now offers a DeepResearch feature designed to reduce citation hallucinations and summarise literature --- these are still limited to open-access articles only, and errors still happen. Always verify citations at the source. To use DeepResearch, you have to ask ChatGPT to use it as it won't search carefully by default. For example, you would need your prompt to be something like: ``Using deep research, give me a paper that describes x''
+\hspace{0pt}\hspace{0pt}
+If you don't already understand the concept or method, you probably won't be able to tell if the AI got it wrong. That's a sign you should pause and ask a labmate (or me) for help.
+
+\subsection{Boundaries and Responsibilities}\label{boundaries-and-responsibilities}
+
+No uploading data: Never paste data, participant responses, or sensitive information into AI tools -- even in small samples. That includes data from active studies, even if it looks anonymous. If you're getting help with code, describe the structure of your data instead (e.g.~``I have a 64×1000×120 matrix called motionData representing channels x timepoints (in ms) x trials'', or ``I have a data frame in R where each row represents a participant and the columns include group, age, and threshold''). If you're not sure how to describe your data without showing it, ask a labmate or bring it to our next meeting.
+No identifiable content: Avoid including names or sharing personal details with these tools, including information about yourself - whether you're getting help with writing a reference letter, drafting an email, or talking through a lab-related issue. Even if it seems harmless, AI tools are not private spaces.
+You're responsible for vetting the output: If you don't understand the code, math, or language an AI tool gives you, don't just copy and paste it into your project. Run it by someone else, or step back and learn the concept first. That's how you grow as a researcher. AI is here to help you work, not do your work for you.
+No AI-written research content: AI should never be used to generate text for a research paper, abstract, or manuscript section. You can use it to help organize your thoughts or improve the clarity of something you wrote -- but the core ideas, language, and citations must be your own. Even if you're using AI to help you phrase something better, avoid copy-pasting text that it wrote for you. You'll learn a lot more (and avoid problems) by rewriting in your own words.
+This includes embedded AI tools: This policy applies not just to standalone tools like ChatGPT, but also to built-in features like GitHub Copilot, Microsoft Editor, or Google Docs suggestions. Use the same judgment no matter where the AI shows up.
+
+\subsection{Other Contexts Have Other Rules}\label{other-contexts-have-other-rules}
+
+This guide is specific to our lab work. If you're working on coursework, a class presentation, a fellowship application, or a conference submission, you must follow their guidelines about AI use and authorship.
+
 \chapter{Communication and coordination}\label{communication-and-coordination}
 
 by Jess Grembi
@@ -234,12 +278,12 @@ One benefit of the academic environment is its schedule flexibility. This means 
   Please move your card to the ``Completed'' list when it is done. Cards with `\#TJ' in the title indicate that you should ``Tell Jess'' when the task has been completed. This hashtag is an indicator that someone else might be waiting on you to finish this task in order to proceed with other work, so it's another way to ensure critical tasks are communicated within the team.
 \end{itemize}
 
-\section{Google Drives}\label{google-drives}
+\section{Sharepoint}\label{sharepoint}
 
 \begin{itemize}
 \tightlist
 \item
-  We mostly use Google Drive to create shared documents with longer descriptions of tasks. These documents are linked to in Trello. Jade often shares these with the whole team since tasks are overlapping, and even if a task is assigned to one person, others may have valuable insights.
+  We mostly use Sharepoint to create shared documents with longer descriptions of tasks. These documents are linked to in Trello. We often share these with the whole team since tasks are overlapping, and even if a task is assigned to one person, others may have valuable insights.
 \end{itemize}
 
 \section{Meetings}\label{meetings}
@@ -2065,19 +2109,19 @@ On GitHub, it is useful to create an official ``release'' version to freeze the 
 
 Further reading on end-to-end data management: \href{https://plos.org/resource/how-to-store-and-manage-your-data/\#data-management-plan}{How to Store and Manage Your Data - PLOS}
 
-\chapter{Slurm and cluster computing}\label{slurm}
+\chapter{Slurm and cluster computing on ROAR}\label{slurm}
 
-by Anna Nguyen, Jade Benjamin-Chung, and Gabby Barratt Heitmann
+by Jess Grembi
 
-When you need to run a script that requires a large amount of RAM, large files, or that uses parallelization, you can use Sherlock, Stanford's computing cluster. Sherlock uses Slurm, an open source, scalable cluster management and job scheduling system for computing clusters. Jade can email Sherlock managers to get you an account. Please refer to the \href{https://www.sherlock.stanford.edu/docs/overview/introduction/}{Sherlock user guide} to learn about the system and how to use it. Below, we include a few tips specific to how we use Sherlock in our lab.
+Many of the bioinformatic tools that we use require a large amount of RAM, rely on large databases, and can be run in parallel across many samples. For these types of analyses, we use ROAR Collab, Penn State's computing cluster. ROAR uses Slurm, an open source, scalable cluster management and job scheduling system for computing clusters. You will need to request an account, and once you have one Jess can add you to the lab account tp access our storage areas and compute resources. Please refer to the \href{https://docs.icds.psu.edu}{ROAR User Guide} to learn about the system and how to use it (this also contains instructions for how to request an account). Below, we include a few tips specific to how we use Sherlock in our lab.
 
 \section{Getting started}\label{getting-started}
 
-To access Sherlock, in terminal, log in using the following syntax and replace ``USERNAME'' with your Stanford alias. You will be prompted to enter your Stanford password (the same one you use for your email and other accounts) and to complete two-factor authentication.
+To access ROAR Collab, in terminal, log in using the following syntax and replace , with your PSU alias. You will be prompted to enter your PSU password (the same one you use for your email and other accounts) and to complete two-factor authentication.
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\NormalTok{ssh USERNAME@login.sherlock.stanford.edu}
+\NormalTok{ssh \textless{}user\textgreater{}@submit.hpc.psu.edu}
 \end{Highlighting}
 \end{Shaded}
 
@@ -2090,6 +2134,36 @@ Once you log in, you can view the contents of your home directory in command lin
 \NormalTok{git clone https://github.com/jadebc/covid19{-}infections.git}
 \end{Highlighting}
 \end{Shaded}
+
+\subsection{Storage}\label{storage}
+
+Each user account is provided with 3 different storage assets. The \texttt{\$HOME} directory is a good place to store code and small test files (quota: 16 GB per user) and the \texttt{\$WORK} directory is a good place to store larger items that you will use regularly (quota: 128 GB per user). Save intermediate processing files and temporary files generated by specific bioinformatic tools to the \texttt{\$SCRATCH} directory (quota: unlimited, but files are automatically deleted 30 days after their last modification). You can read more about storage options on ROAR \href{https://docs.icds.psu.edu/handling-data/file-storage/}{here}.
+
+The lab has also purchased active storage space (45 TiB, accessible at \texttt{/storage/group/jag548/default}) and archive storage (15 TiB, accessible at \texttt{/storage/archive/jag548/default}). Archive storage is about 1/4 the cost of active storage so raw sequencing files should be moved to the archive storage once you've completed the preliminary data processing steps and are fairly certain you will not be needing them again anytime soon.
+
+You can check the use of your personal storage and the group resources easily by running:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{check\_quota}
+\end{Highlighting}
+\end{Shaded}
+
+\subsection{Submitting jobs}\label{submitting-jobs}
+
+ROAR has various CPU and GPU compute resources. On the basic cluster, all users have access to the following resources (across all jobs they have submitted):
+48h runtime
+800 GB
+100 cores
+
+There are 3 different hardware partitions, and you need to specify which you want your jobs to run on:
+basic cores: 4GB/core
+standard cores: 8GB/core
+high memory cores: 20GB/core
+
+The task/job being run should dictate which partition you should use.
+
+Your credit account '' jag548\_cr\_credit'' is active. To use the account, you will need to specify it in your job submission by either selecting it via the drop down options on the portal, or by using the directive ``--account= jag548\_cr\_credit''. Additionally, you will also need to specify the desired hardware partition for your job to launch correctly. The options are ``basic'', ``standard'', and ``himem''.
 
 \subsection{One-Time System Set-Up}\label{one-time-system-set-up}
 
@@ -2146,7 +2220,7 @@ Alternatively, create an R script with the following code, and run it on Sherloc
 
 \section{Moving files to Sherlock}\label{moving-files-to-sherlock}
 
-The \texttt{\$HOME} directory is a good place to store code and small test files (quota: 15 GB per user). Save large files to the \texttt{\$SCRATCH} directory (quota: 100 TB per user). You can read more about storage options on Sherlock \href{https://www.sherlock.stanford.edu/docs/storage/}{here}. On the \texttt{\$SCRATCH} directory, files that are not modified after 90 days are automatically deleted. For this reason, it's best to create a bash script that records the file transfer process for a given project. See example code below:
+For this reason, it's best to create a bash script that records the file transfer process for a given project. See example code below:
 
 \begin{Shaded}
 \begin{Highlighting}[]
