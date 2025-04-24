@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.1.31)  23 APR 2025 15:23
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.1.31)  24 APR 2025 10:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -845,117 +845,117 @@ Chapter 4.
 
 ]
 
-Package hyperref Warning: Suppressing link with empty target on input line 336.
+Package hyperref Warning: Suppressing link with empty target on input line 338.
 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 338.
+(Font)              scaled to size 7.0pt on input line 340.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 338.
+(Font)              scaled to size 5.0pt on input line 340.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00092pt on input line 338.
+(Font)              scaled to size 10.00092pt on input line 340.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00064pt on input line 338.
+(Font)              scaled to size 7.00064pt on input line 340.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00046pt on input line 338.
+(Font)              scaled to size 5.00046pt on input line 340.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 338.
+(Font)              scaled to size 9.99893pt on input line 340.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 338.
+(Font)              scaled to size 6.99925pt on input line 340.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 338.
+(Font)              scaled to size 4.99947pt on input line 340.
 [14] [15] [16]
 Chapter 5.
 [17
 
 ]
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <14.4> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 493.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 495.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [18]
 
-LaTeX Warning: Hyper reference `unix' on page 19 undefined on input line 507.
+LaTeX Warning: Hyper reference `unix' on page 19 undefined on input line 509.
 
 [19] [20
 
 ]
 Chapter 6.
 
-Overfull \hbox (75.0pt too wide) in paragraph at lines 548--548
+Overfull \hbox (75.0pt too wide) in paragraph at lines 550--550
 []\TU/lmtt/m/n/10 #############################################################
 ###################[] 
  []
 
 [21]
-Overfull \hbox (75.0pt too wide) in paragraph at lines 548--548
+Overfull \hbox (75.0pt too wide) in paragraph at lines 550--550
 []\TU/lmtt/m/n/10 #############################################################
 ###################[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 570--571
+Underfull \hbox (badness 10000) in paragraph at lines 572--573
 []\TU/lmtt/m/n/10 # This is a comment -- first letter is capitalized and spaced
 
  []
 
 [22]
-Overfull \hbox (33.0pt too wide) in paragraph at lines 597--597
+Overfull \hbox (33.0pt too wide) in paragraph at lines 599--599
 []\TU/lmtt/m/n/10 # data: a data frame with variables flu_season, site, studyID
 , and yname[] 
  []
 
 
-Overfull \hbox (222.0pt too wide) in paragraph at lines 597--597
+Overfull \hbox (222.0pt too wide) in paragraph at lines 599--599
 []\TU/lmtt/m/n/10 # silent: a boolean specifying whether the function shouldn[]
 t output anything to the console (DEFAULT: TRUE)[] 
  []
 
 
-Overfull \hbox (17.25pt too wide) in paragraph at lines 597--597
+Overfull \hbox (17.25pt too wide) in paragraph at lines 599--599
 []\TU/lmtt/m/n/10 # Output: prints the data frame described above if silent is 
 not True[] 
  []
 
 [23] [24]
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 657.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 659.
 [25]
-Underfull \hbox (badness 10000) in paragraph at lines 681--683
+Underfull \hbox (badness 10000) in paragraph at lines 683--685
 \TU/lmr/m/n/10 file, with \TU/lmtt/m/n/10 box_auth(client_id = "<your_client_id
 >", client_secret
  []
 
 
-Overfull \hbox (17.25pt too wide) in paragraph at lines 702--702
+Overfull \hbox (17.25pt too wide) in paragraph at lines 704--704
 []\TU/lmtt/m/n/10 # this token only has to be generated once, it is valid until
  revoked[] 
  []
 
 [26]
-Overfull \hbox (6.75pt too wide) in paragraph at lines 736--737
+Overfull \hbox (6.75pt too wide) in paragraph at lines 738--739
 \TU/lmtt/m/n/10 dplyr::filter(get_rows_condition)|  
  []
 
 [27] [28]
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 814.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 816.
 [29]
-Overfull \hbox (80.25pt too wide) in paragraph at lines 836--836
+Overfull \hbox (80.25pt too wide) in paragraph at lines 838--838
 []  \TU/lmtt/m/n/10 result <- lapply(X = mylist2, FUN = function(y) square_sum(
 mylist1[[1]][i], y))[] 
  []
 
 [30]
-Overfull \hbox (48.75pt too wide) in paragraph at lines 866--866
+Overfull \hbox (48.75pt too wide) in paragraph at lines 868--868
 []\TU/lmtt/m/n/10 # Set how many processors will be used to process the list an
 d make cluster[] 
  []
 
 [31]
 
-LaTeX Warning: Hyper reference `Github' on page 32 undefined on input line 895.
+LaTeX Warning: Hyper reference `Github' on page 32 undefined on input line 897.
 
 
 [32] [33] [34
@@ -963,73 +963,73 @@ LaTeX Warning: Hyper reference `Github' on page 32 undefined on input line 895.
 ]
 Chapter 7.
 
-Overfull \hbox (75.0pt too wide) in paragraph at lines 969--969
+Overfull \hbox (75.0pt too wide) in paragraph at lines 971--971
 []\TU/lmtt/m/n/10 #############################################################
 ###################[] 
  []
 
 
-Overfull \hbox (75.0pt too wide) in paragraph at lines 969--969
+Overfull \hbox (75.0pt too wide) in paragraph at lines 971--971
 []\TU/lmtt/m/n/10 #############################################################
 ###################[] 
  []
 
 [35]
-Underfull \hbox (badness 10000) in paragraph at lines 987--988
+Underfull \hbox (badness 10000) in paragraph at lines 989--990
 []\TU/lmtt/m/n/10 # This is a comment -- first letter is capitalized and spaced
 
  []
 
 
-Overfull \hbox (42.25pt too wide) in paragraph at lines 1029--1029
+Overfull \hbox (42.25pt too wide) in paragraph at lines 1031--1031
  []  \TU/lmtt/m/n/10 mutate(program = case_when(schoolyr %in% pre_program_schoo
 lyrs ~ 0,[] 
  []
 
 
-Overfull \hbox (47.5pt too wide) in paragraph at lines 1029--1029
+Overfull \hbox (47.5pt too wide) in paragraph at lines 1031--1031
  []                             \TU/lmtt/m/n/10 schoolyr %in% program_schoolyrs
  ~ 1)) %>%[] 
  []
 
 
-Overfull \hbox (37.0pt too wide) in paragraph at lines 1029--1029
+Overfull \hbox (37.0pt too wide) in paragraph at lines 1031--1031
  []  \TU/lmtt/m/n/10 mutate(period = case_when(schoolyr %in% pre_program_school
 yrs ~ 0,[] 
  []
 
 
-Overfull \hbox (0.25pt too wide) in paragraph at lines 1029--1029
+Overfull \hbox (0.25pt too wide) in paragraph at lines 1031--1031
  []                            \TU/lmtt/m/n/10 schoolyr %in% LAIV_schoolyrs ~ 1
 ,[] 
  []
 
 
-Overfull \hbox (21.25pt too wide) in paragraph at lines 1029--1029
+Overfull \hbox (21.25pt too wide) in paragraph at lines 1031--1031
  []                            \TU/lmtt/m/n/10 schoolyr %in% IIV_schoolyrs ~ 2)
 ) %>%[] 
  []
 
 [36]
-Overfull \hbox (37.0pt too wide) in paragraph at lines 1066--1066
+Overfull \hbox (37.0pt too wide) in paragraph at lines 1068--1068
  []  \TU/lmtt/m/n/10 geom_errorbar(mapping=aes_string(ymin="lb", ymax="ub", col
 =group),[] 
  []
 
 
-Overfull \hbox (58.0pt too wide) in paragraph at lines 1066--1066
+Overfull \hbox (58.0pt too wide) in paragraph at lines 1068--1068
  []  \TU/lmtt/m/n/10 scale_color_manual(std_legend_title,values=cols,labels=leg
 end_label) +[] 
  []
 
 
-Overfull \hbox (73.75pt too wide) in paragraph at lines 1066--1066
+Overfull \hbox (73.75pt too wide) in paragraph at lines 1068--1068
  []  \TU/lmtt/m/n/10 scale_shape_manual(std_legend_title,values=shapes, labels=
 legend_label) +[] 
  []
 
 
-Underfull \hbox (badness 1478) in paragraph at lines 1071--1071
+Underfull \hbox (badness 1478) in paragraph at lines 1073--1073
 []\TU/lmr/bx/n/14.4 Automated Tools for Style and Project
  []
 
@@ -1037,139 +1037,139 @@ Underfull \hbox (badness 1478) in paragraph at lines 1071--1071
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [37]
-Overfull \hbox (216.75pt too wide) in paragraph at lines 1099--1099
+Overfull \hbox (216.75pt too wide) in paragraph at lines 1101--1101
 []  \TU/lmtt/m/n/10 "Brookfield Village Elementary" = str_subset(string = OUSD_
 school_shapes$schnam, pattern = "Brookfield"),[] 
  []
 
 
-Overfull \hbox (148.5pt too wide) in paragraph at lines 1099--1099
+Overfull \hbox (148.5pt too wide) in paragraph at lines 1101--1101
 []  \TU/lmtt/m/n/10 "Carl Munck Elementary" = str_subset(string = OUSD_school_s
 hapes$schnam, pattern = "Munck"),[] 
  []
 
 
-Overfull \hbox (274.5pt too wide) in paragraph at lines 1099--1099
+Overfull \hbox (274.5pt too wide) in paragraph at lines 1101--1101
 []  \TU/lmtt/m/n/10 "Community United Elementary School" = str_subset(string = 
 OUSD_school_shapes$schnam, pattern = "Community United"),[] 
  []
 
 
-Overfull \hbox (258.75pt too wide) in paragraph at lines 1099--1099
+Overfull \hbox (258.75pt too wide) in paragraph at lines 1101--1101
 []  \TU/lmtt/m/n/10 "East Oakland PRIDE Elementary" = str_subset(string = OUSD_
 school_shapes$schnam, pattern = "East Oakland Pride"),[] 
  []
 
 
-Overfull \hbox (148.5pt too wide) in paragraph at lines 1099--1099
+Overfull \hbox (148.5pt too wide) in paragraph at lines 1101--1101
 []  \TU/lmtt/m/n/10 "EnCompass Academy" = str_subset(string = OUSD_school_shape
 s$schnam, pattern = "EnCompass"),[] 
  []
 
 
-Overfull \hbox (148.5pt too wide) in paragraph at lines 1099--1099
+Overfull \hbox (148.5pt too wide) in paragraph at lines 1101--1101
 []  \TU/lmtt/m/n/10 "Global Family School" = str_subset(string = OUSD_school_sh
 apes$schnam, pattern = "Global"),[] 
  []
 
 
-Overfull \hbox (290.25pt too wide) in paragraph at lines 1099--1099
+Overfull \hbox (290.25pt too wide) in paragraph at lines 1101--1101
 []  \TU/lmtt/m/n/10 "International Community School" = str_subset(string = OUSD
 _school_shapes$schnam, pattern = "International Community"),[] 
  []
 
 
-Overfull \hbox (248.25pt too wide) in paragraph at lines 1099--1099
+Overfull \hbox (248.25pt too wide) in paragraph at lines 1101--1101
 []  \TU/lmtt/m/n/10 "Manzanita Community School" = str_subset(string = OUSD_sch
 ool_shapes$schnam, pattern = "Manzanita Community"),[] 
  []
 
 
-Overfull \hbox (201.0pt too wide) in paragraph at lines 1099--1099
+Overfull \hbox (201.0pt too wide) in paragraph at lines 1101--1101
 []  \TU/lmtt/m/n/10 "Martin Luther King Jr Elementary" = str_subset(string = OU
 SD_school_shapes$schnam, pattern = "King"),[] 
  []
 
 
-Overfull \hbox (59.25pt too wide) in paragraph at lines 1099--1099
+Overfull \hbox (59.25pt too wide) in paragraph at lines 1101--1101
 []  \TU/lmtt/m/n/10 "PLACE @ Prescott" = "Preparatory Literary Academy of Cultu
 ral Excellence",[] 
  []
 
 
-Overfull \hbox (190.5pt too wide) in paragraph at lines 1099--1099
+Overfull \hbox (190.5pt too wide) in paragraph at lines 1101--1101
 []  \TU/lmtt/m/n/10 "RISE Community School" = str_subset(string = OUSD_school_s
 hapes$schnam, pattern = "Rise Community")[] 
  []
 
 
-Overfull \hbox (243.0pt too wide) in paragraph at lines 1117--1117
+Overfull \hbox (243.0pt too wide) in paragraph at lines 1119--1119
 []  \TU/lmtt/m/n/10 "Brookfield Village Elementary"      = str_subset(string = 
 OUSD_school_shapes$schnam, pattern = "Brookfield"),[] 
  []
 
 
-Overfull \hbox (216.75pt too wide) in paragraph at lines 1117--1117
+Overfull \hbox (216.75pt too wide) in paragraph at lines 1119--1119
 []  \TU/lmtt/m/n/10 "Carl Munck Elementary"              = str_subset(string = 
 OUSD_school_shapes$schnam, pattern = "Munck"),[] 
  []
 
 
-Overfull \hbox (274.5pt too wide) in paragraph at lines 1117--1117
+Overfull \hbox (274.5pt too wide) in paragraph at lines 1119--1119
 []  \TU/lmtt/m/n/10 "Community United Elementary School" = str_subset(string = 
 OUSD_school_shapes$schnam, pattern = "Community United"),[] 
  []
 
 
-Overfull \hbox (285.0pt too wide) in paragraph at lines 1117--1117
+Overfull \hbox (285.0pt too wide) in paragraph at lines 1119--1119
 []  \TU/lmtt/m/n/10 "East Oakland PRIDE Elementary"      = str_subset(string = 
 OUSD_school_shapes$schnam, pattern = "East Oakland Pride"),[] 
  []
 
 
-Overfull \hbox (237.75pt too wide) in paragraph at lines 1117--1117
+Overfull \hbox (237.75pt too wide) in paragraph at lines 1119--1119
 []  \TU/lmtt/m/n/10 "EnCompass Academy"                  = str_subset(string = 
 OUSD_school_shapes$schnam, pattern = "EnCompass"),[] 
  []
 
 
-Overfull \hbox (222.0pt too wide) in paragraph at lines 1117--1117
+Overfull \hbox (222.0pt too wide) in paragraph at lines 1119--1119
 []  \TU/lmtt/m/n/10 "Global Family School"               = str_subset(string = 
 OUSD_school_shapes$schnam, pattern = "Global"),[] 
  []
 
 
-Overfull \hbox (311.25pt too wide) in paragraph at lines 1117--1117
+Overfull \hbox (311.25pt too wide) in paragraph at lines 1119--1119
 []  \TU/lmtt/m/n/10 "International Community School"     = str_subset(string = 
 OUSD_school_shapes$schnam, pattern = "International Community"),[] 
  []
 
 
-Overfull \hbox (17.25pt too wide) in paragraph at lines 1117--1117
+Overfull \hbox (17.25pt too wide) in paragraph at lines 1119--1119
 []  \TU/lmtt/m/n/10 "Madison Park Lower Campus"          = "Madison Park Academ
 y TK-5",[] 
  []
 
 
-Overfull \hbox (290.25pt too wide) in paragraph at lines 1117--1117
+Overfull \hbox (290.25pt too wide) in paragraph at lines 1119--1119
 []  \TU/lmtt/m/n/10 "Manzanita Community School"         = str_subset(string = 
 OUSD_school_shapes$schnam, pattern = "Manzanita Community"),[] 
  []
 
 
-Overfull \hbox (211.5pt too wide) in paragraph at lines 1117--1117
+Overfull \hbox (211.5pt too wide) in paragraph at lines 1119--1119
 []  \TU/lmtt/m/n/10 "Martin Luther King Jr Elementary"   = str_subset(string = 
 OUSD_school_shapes$schnam, pattern = "King"),[] 
  []
 
 
-Overfull \hbox (153.75pt too wide) in paragraph at lines 1117--1117
+Overfull \hbox (153.75pt too wide) in paragraph at lines 1119--1119
 []  \TU/lmtt/m/n/10 "PLACE @ Prescott"                   = "Preparatory Literar
 y Academy of Cultural Excellence",[] 
  []
 
 
-Overfull \hbox (258.75pt too wide) in paragraph at lines 1117--1117
+Overfull \hbox (258.75pt too wide) in paragraph at lines 1119--1119
 []  \TU/lmtt/m/n/10 "RISE Community School"              = str_subset(string = 
 OUSD_school_shapes$schnam, pattern = "Rise Community")[] 
  []
@@ -1185,12 +1185,12 @@ Underfull \vbox (badness 3354) has occurred while \output is active []
 Chapter 9.
 
 LaTeX Warning: File `/assets/images/data-masking.PNG' not found on input line 1
-201.
+203.
 
 ! Unable to load picture or PDF file '/assets/images/data-masking.PNG'.
 <to be read again> 
                    }
-l.1201 ...raphics{/assets/images/data-masking.PNG}
+l.1203 ...raphics{/assets/images/data-masking.PNG}
                                                    
 Here is how much of TeX's memory you used:
  19465 strings out of 474773
