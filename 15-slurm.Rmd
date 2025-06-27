@@ -34,14 +34,16 @@ check_quota
 
 ### Submitting jobs
 ROAR has various CPU and GPU compute resources.  On the basic cluster, all users have access to the following resources (across all jobs they have submitted):
-48h runtime
-800 GB
-100 cores
+
+- 48h runtime
+- 800 GB
+- 100 cores
 
 There are 3 different hardware partitions, and you need to specify which you want your jobs to run on:
-basic cores: 4GB/core
-standard cores: 8GB/core
-high memory cores: 20GB/core
+
+- basic cores: 4GB/core
+- standard cores: 8GB/core
+- high memory cores: 20GB/core
 
 The task/job being run should dictate which partition you should use.
 
