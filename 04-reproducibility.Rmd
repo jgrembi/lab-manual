@@ -70,7 +70,7 @@ Reproducible workflows allow a user to reproduce study estimates and ideally fig
 
 ## Process and analyze data with internal replication and masking
 
-See my video on this topic: [https://www.youtube.com/watch?v=WoYkY9MkbRE](https://www.youtube.com/watch?v=WoYkY9MkbRE)
+See my colleague Jade Benjamin-Chung's video on this topic: [https://www.youtube.com/watch?v=WoYkY9MkbRE](https://www.youtube.com/watch?v=WoYkY9MkbRE)
 
 ## Use reporting checklists with manuscripts
 

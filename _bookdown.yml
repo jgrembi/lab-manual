@@ -4,3 +4,23 @@ language:
     chapter_name: "Chapter "
 delete_merged_file: true
 output_dir: "docs"
+rmd_files: [
+  "index.Rmd",
+  "01-culture-and-conduct.Rmd",      # Existing chapter 2
+  "02-communication.Rmd",      # Existing chapter 3
+  "03-lab-safety.Rmd",
+  "04-reproducibility.Rmd",
+  "05-code-repositories.Rmd",
+  "06-coding-practices.Rmd",
+  "07-coding-style.Rmd",
+  "08-big-data.Rmd",
+  "09-data-masking.Rmd",
+  "10-github.Rmd",
+  "11-unix.Rmd",
+  "12-reproducible-environments.Rmd",
+  "13-code-publication.Rmd",
+  "14-data-publication.Rmd",
+  "15-slurm.Rmd",
+  "16-checklists.Rmd",
+  "17-resources.Rmd"
+]

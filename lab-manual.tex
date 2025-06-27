@@ -126,7 +126,7 @@
 
 \title{Grembi Lab Manual}
 \author{}
-\date{\vspace{-2.5em}Updated: 2025-04-24}
+\date{\vspace{-2.5em}Updated: 2025-06-27}
 
 \begin{document}
 \maketitle
@@ -298,6 +298,81 @@ One benefit of the academic environment is its schedule flexibility. This means 
   If you are going to be late, please send a message in our Slack channel.
 \item
   If you are regularly not able to come on the hour, notify the team and we might choose to modify the agenda order or the start time.
+\end{itemize}
+
+\#Lab Safety
+
+by Jess Grembi
+
+Safety, health, and environmental stewardship are priorities at Penn State. In particular, our lab handles samples that could potentially contain BSL2 organisms - these are pathogens that can cause diarrheal illness that is self-limiting (not life threatening). We do not want to get ourselves or others sick so we adhere to strict protocols to reduce exposure when working in the lab.
+
+The Environmental Health and Safety (EHS) team is a resource to help labs ensure we are in compliance with Federal and State laws, University directives, and are doing our best to support safety, health, and environmental stewardship (link to EHS website). If you have any questions about these topics, feel free to reach out to Dr.~Grembi or the lab Safety Officer. If we can't answer your question, and we can reach out to EHS for their assistance.
+
+\textbf{\emph{The lab Safety Officer is Pablo Ochoa-Andersen}}
+
+\section{Key points regarding safety:}\label{key-points-regarding-safety}
+
+\begin{itemize}
+\item
+  Appropriate lab attire includes closed toe shoes and long pants.
+\item
+  Gloves are not worn when opening doors or touching objects that may spread contamination to others.
+\item
+  All gloves are permeable and will eventually allow chemicals and biological agents to come into contact with your skin. Thus, double glove if you plan to work with any harsh chemicals and replace gloves as soon as feasible after they become contaminated.
+\item
+  When using Biosafety cabinets ensure that you are not restricting airflow (with your body or with equipment placed into the cabinet).
+\end{itemize}
+
+\section{Required Institutional Lab Safety Training}\label{required-institutional-lab-safety-training}
+
+There are several required trainings before anyone can work in the lab. Please ensure you have completed all trainings \textbf{\emph{and provided certificates to the Lab Safety Officer}} before performing any work in the lab.
+
+\subsection{\texorpdfstring{The following trainings can be accessed from the \href{https://ehs.psu.edu/training}{EHS training website}}{The following trainings can be accessed from the EHS training website}}\label{the-following-trainings-can-be-accessed-from-the-ehs-training-website}
+
+\begin{itemize}
+\tightlist
+\item
+  Hazard Communication (HazCom) Training
+\item
+  Laboratory and Research Safety Training (initial and then annual refresher)
+\item
+  Biosafety cabinet training
+\item
+  Regulated Medical Waste
+\item
+  Spill Prevention and Response
+\item
+  Compressed gas training (if using the Coy)
+\item
+  Autoclave Safety (if using the autoclave)
+\end{itemize}
+
+\subsection{\texorpdfstring{Our lab is a Biosafety Level 2 (BSL2) lab, which requires the following trainings that can be accessed from the \href{https://citi.psu.edu/}{CITI website}}{Our lab is a Biosafety Level 2 (BSL2) lab, which requires the following trainings that can be accessed from the CITI website}}\label{our-lab-is-a-biosafety-level-2-bsl2-lab-which-requires-the-following-trainings-that-can-be-accessed-from-the-citi-website}
+
+\begin{itemize}
+\tightlist
+\item
+  Yearly Biosafety training
+\item
+  Bloodborne Pathogens - Research Personnel
+\end{itemize}
+
+\section{Lab Safety Tour and site-specific hazard identification}\label{lab-safety-tour-and-site-specific-hazard-identification}
+
+Prior to conducting any work in the lab, new members will be given a lab safety tour by the Safety Officer where you will be shown the major hazards in the lab, and introduced to our lab-specific safety protocols. The safety tour will conclude with a review the Unit Specific Plan, and you will be asked to sign that you understand the hazards present in the lab and the protocols in place to minimize risk.
+
+\section{Lab Safety Officer Responsibilities}\label{lab-safety-officer-responsibilities}
+
+\begin{itemize}
+\tightlist
+\item
+  Serve as the Chemical Safety Officer (CHO)
+\item
+  Weekly Hazardous waste accumulation point check
+\item
+  Weekly eyewash station inspection and testing (verify with Huck if they do this or if we need to?)
+\item
+  Monthly safety inspections
 \end{itemize}
 
 \chapter{Reproducibility}\label{reproducibility}
@@ -563,7 +638,7 @@ Rstudio (\href{https://blog.rstudio.com/2020/12/02/rstudio-v1-4-preview-little-t
 
 \subsection{Code folding}\label{code-folding}
 
-Consider using RStudio's \href{https://support.rstudio.com/hc/en-us/articles/200484568-Code-Folding-and-Sections}{code folding} feature to collapse and expand different sections of your code. Any comment line with at least four trailing dashes (-), equal signs (=), or pound signs (\#) automatically creates a code section. For example:
+Consider using RStudio's \href{https://support.rstudio.com/hc/en-us/articles/200484568-Code-Folding-and-Sections}{code folding} feature to collapse and expand different sections of your code. Any comment line with at least four trailing dashes (-), equal signs (=), or pound signs (\#) automatically creates a code section. See the above link for more info.
 
 \subsection{Comments in the body of your script}\label{comments-in-the-body-of-your-script}
 
@@ -980,7 +1055,7 @@ by Kunal Mishra, Jade Benjamin-Chung, and Stephanie Djajadi
   \begin{itemize}
   \tightlist
   \item
-    \textbf{Note}: If your computer isn't able to handle this workflow due to RAM or requirements, modifying the ordering of your code to accomodate it won't be ultimately helpful and your code will be fragile, not to mention less readable and messy. You need to look into high-performance computing (HPC) resources in this case.
+    \textbf{Note}: If your computer isn't able to handle this workflow due to RAM or requirements, modifying the ordering of your code to accommodate it won't be ultimately helpful and your code will be fragile, not to mention less readable and messy. You need to look into high-performance computing (HPC) resources in this case.
   \end{itemize}
 \item
   \textbf{Single-Line Comments} - Commenting your code is an important part of reproducibility and helps document your code for the future. When things change or break, you'll be thankful for comments. There's no need to comment excessively or unnecessarily, but a comment describing what a large or complex chunk of code does is always helpful. See \href{https://github.com/kmishra9/Flu-Absenteeism/blob/master/Master's\%20Thesis\%20-\%20Spatial\%20Epidemiology\%20of\%20Influenza/1b\%20-\%20Map-Management.R}{this file} for an example of how to comment your code and notice that comments are always in the form of:
@@ -1188,9 +1263,7 @@ Unfortunately RStudio often gets slow and/or freezes after hours working with bi
 
 by Anna Nguyen, Jade Benjamin-Chung, and Gabby Barratt Heitmann
 
-When you need to run a script that requires a large amount of RAM, large files, or that uses parallelization, you can use Sherlock, Stanford's computing cluster. Sherlock uses Slurm, an open source, scalable cluster management and job scheduling system for computing clusters. Jade can email Sherlock managers to get you an account. Please refer to the \href{https://www.sherlock.stanford.edu/docs/overview/introduction/}{Sherlock user guide} to learn about the system and how to use it. Below, we include a few tips specific to how we use Sherlock in our lab.
-
-\section{General Overview}\label{general-overview}
+\section{General overview}\label{general-overview}
 
 This chapter covers data masking, a unique process in R in which columns are treated as distinct objects within their dataframe's environment. In our lab, data masking most frequently comes up when writing wrapper functions where arguments to indicate column names are supplied as strings. We often do this when we repeat the same code on multiple columns, and want to apply a function to a vector of strings that correspond to column names in a dataframe. For example, we might want to clean multiple columns using the same function or estimate the same model under different feature sets. Here, we try to break down what data masking is, why this error comes up, and common approaches to solve this problem.
 
@@ -2115,7 +2188,7 @@ Further reading on end-to-end data management: \href{https://plos.org/resource/h
 
 by Jess Grembi
 
-Many of the bioinformatic tools that we use require a large amount of RAM, rely on large databases, and can be run in parallel across many samples. For these types of analyses, we use ROAR Collab, Penn State's computing cluster. ROAR uses Slurm, an open source, scalable cluster management and job scheduling system for computing clusters. You will need to request an account, and once you have one Jess can add you to the lab account tp access our storage areas and compute resources. Please refer to the \href{https://docs.icds.psu.edu}{ROAR User Guide} to learn about the system and how to use it (this also contains instructions for how to request an account). Below, we include a few tips specific to how we use Sherlock in our lab.
+Many of the bioinformatic tools that we use require a large amount of RAM, rely on large databases, and can be run in parallel across many samples. For these types of analyses, we use ROAR Collab, Penn State's computing cluster. ROAR uses Slurm, an open source, scalable cluster management and job scheduling system for computing clusters. You will need to \href{https://www.icds.psu.edu/account-setup/}{request an account}, and once you have one Jess can add you to the lab account to access our storage areas and compute resources. Please refer to the \href{https://docs.icds.psu.edu}{ROAR User Guide} to learn about the system and how to use it. Below, we include a few tips specific to how we use ROAR Collab in our lab.
 
 \section{Getting started}\label{getting-started}
 
@@ -2181,7 +2254,7 @@ Open your \texttt{\textasciitilde{}/.Renviron} file (\texttt{vi\ \textasciitilde
 \end{Highlighting}
 \end{Shaded}
 
-Alternatively, run an R script with the following code on Sherlock:
+Alternatively, run an R script with the following code on ROAR Collab:
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -2195,7 +2268,7 @@ Alternatively, run an R script with the following code on Sherlock:
 
 To load packages that run off of C++, you'll need to set the correct compiler options in your R environment.
 
-Open the Makevars file in Sherlock (\texttt{vi\ \textasciitilde{}/.R/Makevars}) and append the following lines
+Open the Makevars file in ROAR Collab (\texttt{vi\ \textasciitilde{}/.R/Makevars}) and append the following lines
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -2204,7 +2277,7 @@ Open the Makevars file in Sherlock (\texttt{vi\ \textasciitilde{}/.R/Makevars}) 
 \end{Highlighting}
 \end{Shaded}
 
-Alternatively, create an R script with the following code, and run it on Sherlock:
+Alternatively, create an R script with the following code, and run it on ROAR Collab:
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -2220,24 +2293,24 @@ Alternatively, create an R script with the following code, and run it on Sherloc
 \end{Highlighting}
 \end{Shaded}
 
-\section{Moving files to Sherlock}\label{moving-files-to-sherlock}
+\section{Moving files to ROAR Collab}\label{moving-files-to-roar-collab}
 
 For this reason, it's best to create a bash script that records the file transfer process for a given project. See example code below:
 
 \begin{Shaded}
 \begin{Highlighting}[]
 \CommentTok{\# note: the following steps should be done from your local }
-\CommentTok{\# (not after ssh{-}ing into sherlock)}
+\CommentTok{\# (not after ssh{-}ing into ROAR Collab)}
 
-\CommentTok{\# securely transfer folders from Box to sherlock home directory}
+\CommentTok{\# securely transfer folders from Box to ROAR Collab work directory}
 \CommentTok{\# note: the {-}r option is for folders and is not needed for files}
-\FunctionTok{scp} \AttributeTok{{-}r} \StringTok{"Box/malaria{-}project/folder{-}1/"}\NormalTok{ USERNAME@login.sherlock.stanford.edu:/home/users/USERNAME/}
+\FunctionTok{scp} \AttributeTok{{-}r} \StringTok{"Box/malaria{-}project/folder{-}1/"}\NormalTok{ USERNAME@submit.hpc.psu.edu:/work/}
 
-\CommentTok{\# securely transfer folders from Box to your sherlock scratch directory}
-\FunctionTok{scp} \AttributeTok{{-}r} \StringTok{"Box/malaria{-}project/folder{-}2/"}\NormalTok{ USERNAME@login.sherlock.stanford.edu:/scratch/users/USERNAME/}
+\CommentTok{\# securely transfer folders from Box to your ROAR Collab scratch directory}
+\FunctionTok{scp} \AttributeTok{{-}r} \StringTok{"Box/malaria{-}project/folder{-}2/"}\NormalTok{ USERNAME@submit.hpc.psu.edu:/scratch/}
 
-\CommentTok{\# securely transfer folders from Box to our shared scratch directory}
-\FunctionTok{scp} \AttributeTok{{-}r} \StringTok{"Box/malaria{-}project/folder{-}3/"}\NormalTok{ USERNAME@login.sherlock.stanford.edu:/scratch/group/jadebc/}
+\CommentTok{\# securely transfer folders from Box to our shared storage directory}
+\FunctionTok{scp} \AttributeTok{{-}r} \StringTok{"Box/malaria{-}project/folder{-}3/"}\NormalTok{ USERNAME@submit.hpc.psu.edu:/storage/group/jag548/}
 \end{Highlighting}
 \end{Shaded}
 
@@ -2325,17 +2398,17 @@ Typically, you will want to initially test your scripts by initiating a developm
 
 *Note: for collaboration purposes, it's best for everyone to work with one version of R. Check what version is being used for the project you are working on. Some packages only work with some versions of R, so it's best to keep it consistent.
 
-\subsection{The Sherlock OnDemand Dashboard}\label{the-sherlock-ondemand-dashboard}
+\subsection{The ROAR Collab OnDemand Dashboard}\label{the-roar-collab-ondemand-dashboard}
 
-The second way to test and edit code is to use the Sherlock OnDemand Dashboard, accessed by typing \url{login.sherlock.stanford.edu} into a web browser. You will be prompted to authenticate the way you would for any Stanford website. This is the best way to edit code for people who are not comfortable accessing \& editing in base R in a Shell application.
+The second way to test and edit code is to use the ROAR Collab OnDemand Dashboard, accessed by typing \url{login.sherlock.stanford.edu} into a web browser. You will be prompted to authenticate the way you would for any Stanford website. This is the best way to edit code for people who are not comfortable accessing \& editing in base R in a Shell application.
 
 You can test your code via the \href{https://www.sherlock.stanford.edu/docs/user-guide/ondemand/\#rstudio}{Rstudio server on Sherlock}. To access this, login to the Dashboard, then click on Interactive Apps in the menu bar and choose R Studio Server. Similar to the sdev node, you have to set various parameters for your session. Choose a version of R and set the time -- max. 2 hours. You can play with the other configurations, but this is likely unnecessary, as you should not need huge computing power to test small amounts of code. Keep in mind the more computing power you request, the lower priority your request becomes. You will then wait for the resources to become available, and you will be able to click ``Launch'' when they are (if you don't mess with the CPU or GPU, this is usually less than 2 minutes). The screen that opens will look very similar to the RStudio on your local.
 
 Do NOT use the RStudio Server's Terminal to install packages, set your R environment, and do everything else needed to configure Sherlock because you will likely need to re-do it for every session/project. It's best to use the Dashboard/RStudio Server if you are more comfortable testing \& editing in RStudio rather than through base R in a Shell application.
 
-\subsection{Filepaths \& configuration on Sherlock}\label{filepaths-configuration-on-sherlock}
+\subsection{Filepaths \& configuration on ROAR Collab}\label{filepaths-configuration-on-roar-collab}
 
-In most cases, you will want to test that the file paths work correctly on Sherlock. You will likely need to add code to the configuration file in the project repository that specifies Sherlock-specific file paths. Here is an example:
+In most cases, you will want to test that the file paths work correctly on ROAR Collab You will likely need to add code to the configuration file in the project repository that specifies Sherlock-specific file paths. Here is an example:
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -2733,50 +2806,6 @@ by Jade Benjamin-Chung, Kunal Mishra, and Jess Grembi
 \item
   \href{https://link.springer.com/book/9783031537929}{Transforming Global Health Partnerships}
 \end{itemize}
-
-\#lab-safety
-
-by Jess Grembi
-
-Safety, health, and environmental stewardship are priorities at Penn State. In particular, our lab handles samples that could potentially contain BSL2 organisms - these are pathogens that can cause diarrheal illness that is self-limiting (not life threatening). We do not want to get ourselves or others sick so we adhere to strict protocols to reduce exposure when working in the lab.
-
-The Environmental Health and Safety (EHS) team is a resource to help labs ensure we are in compliance with Federal and State laws, University directives, and are doing our best to support safety, health, and environmental stewardship (link to EHS website). If you have any questions about these topics, feel free to reach out to Dr.~Grembi or the lab Safety Officer. If we can't answer your question, and we can reach out to EHS for their assistance.
-
-The lab Safety Officer is Pablo Ochoa-Andersen.
-
-Key points to remember:
-
-Appropriate lab attire includes closed toe shoes and long pants.
-
-Gloves are not worn when opening doors or touching objects that may spread contamination to others.
-
-All gloves are permeable and will eventually allow chemicals and biological agents to come into contact with your skin. Thus, double glove if you plan to work with any harsh chemicals and replace gloves as soon as feasible after they become contaminated.
-
-When using Biosafety cabinets ensure that you are not restricting airflow (with your body or with equipment placed into the cabinet).
-
-Required Institutional Lab Safety Training: There are several required trainings before anyone can work in the lab. Please ensure you have completed all trainings and provided certificates to the Lab Safety Officer before performing any lab work.
-
-Laboratory Hazard Communication \url{https://apps.opp.psu.edu/ehs_training/}
-
-Laboratory and Research Safety Training
-
-Biosafety cabinet training
-
-Compressed gas training
-
-Lab Safety Tour and site-specific hazard identification
-
-Prior to conducting any work in the lab, new members will be given a lab safety tour by the Safety Officer where you will be shown the major hazards in the lab, and introduced to our lab-specific safety protocols. The safety tour will conclude with a review the Unit Specific Plan, and you will be asked to sign that you understand the hazards present in the lab and the protocols in place to minimize risk.
-
-Lab Safety Officer Responsibilities:
-
-Serve as the Chemical Safety Officer (CHO).
-
-Weekly Hazardous waste accumulation point check.
-
-Weekly eyewash station inspection and testing (verify with Huck if they do this or if we need to?)
-
-Monthly safety inspections.
 
   \bibliography{book.bib,packages.bib}
 
