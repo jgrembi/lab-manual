@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 14 Code Publication | Grembi Lab Manual</title>
+  <title>Chapter 4 Lab Safety | Grembi Lab Manual</title>
   <meta name="description" content="Lab practices, safety, and data science best practices" />
   <meta name="generator" content="bookdown 0.42 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 14 Code Publication | Grembi Lab Manual" />
+  <meta property="og:title" content="Chapter 4 Lab Safety | Grembi Lab Manual" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="Lab practices, safety, and data science best practices" />
   <meta name="github-repo" content="jgrembi/lab-manual" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 14 Code Publication | Grembi Lab Manual" />
+  <meta name="twitter:title" content="Chapter 4 Lab Safety | Grembi Lab Manual" />
   
   <meta name="twitter:description" content="Lab practices, safety, and data science best practices" />
   
@@ -28,8 +28,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="reproducible-environments.html"/>
-<link rel="next" href="data-publication.html"/>
+<link rel="prev" href="communication-and-coordination.html"/>
+<link rel="next" href="reproducibility.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -396,97 +396,56 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="code-publication" class="section level1 hasAnchor" number="14">
-<h1><span class="header-section-number">Chapter 14</span> Code Publication<a href="code-publication.html#code-publication" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p>by Nolan Pokpongkiat</p>
-<div id="checklist-overview" class="section level2 hasAnchor" number="14.1">
-<h2><span class="header-section-number">14.1</span> Checklist overview<a href="code-publication.html#checklist-overview" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<ol style="list-style-type: decimal">
-<li><a href="code-publication.html#fill-out-file-headers">Fill out file headers</a></li>
-<li><a href="code-publication.html#clean-up-comments">Clean up comments</a></li>
-<li><a href="code-publication.html#document-functions">Document functions</a></li>
-<li><a href="code-publication.html#remove-deprecated-filepaths">Remove deprecated filepaths</a></li>
-<li><a href="code-publication.html#ensure-project-runs-via-bash">Ensure project runs via bash</a></li>
-<li><a href="code-publication.html#complete-the-readme">Complete the README</a></li>
-<li><a href="code-publication.html#clean-up-feature-branches">Clean up feature branches</a></li>
-<li><a href="code-publication.html#create-github-release">Create Github release</a></li>
-</ol>
-</div>
-<div id="fill-out-file-headers" class="section level2 hasAnchor" number="14.2">
-<h2><span class="header-section-number">14.2</span> Fill out file headers<a href="code-publication.html#fill-out-file-headers" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Every file in a project should have a header that allows it to be interpreted on its own. It should include the name of the project and a short description for what this file (among the many in your project) does specifically. See template <a href="https://jadebc.github.io/lab-manual/coding-practices.html#file-headers">here.</a></p>
-</div>
-<div id="clean-up-comments" class="section level2 hasAnchor" number="14.3">
-<h2><span class="header-section-number">14.3</span> Clean up comments<a href="code-publication.html#clean-up-comments" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Make sure comments in the code are for code documentation purposes only. Do not leave comments to self in the final script files.</p>
-</div>
-<div id="document-functions" class="section level2 hasAnchor" number="14.4">
-<h2><span class="header-section-number">14.4</span> Document functions<a href="code-publication.html#document-functions" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Every function you write must include a header to document its purpose, inputs, and outputs. See template for the function documentation <a href="https://jadebc.github.io/lab-manual/coding-practices.html#function-documentation">here.</a></p>
-</div>
-<div id="remove-deprecated-filepaths" class="section level2 hasAnchor" number="14.5">
-<h2><span class="header-section-number">14.5</span> Remove deprecated filepaths<a href="code-publication.html#remove-deprecated-filepaths" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>All file paths should be defined in 0-config.R, and should be set relative to the project working directory. All absolute file paths from your local computer should be removed, and replaced with a relative path. If a third party were to re-run this analysis, if they need to download data from a separate source and change a filepath in the 0-config.R to match, make sure to specify in the README which line of 0-config.R needs to be substituted.</p>
-</div>
-<div id="ensure-project-runs-via-bash" class="section level2 hasAnchor" number="14.6">
-<h2><span class="header-section-number">14.6</span> Ensure project runs via bash<a href="code-publication.html#ensure-project-runs-via-bash" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>The project should be configured to be entirely reproducible by running a master bash script, run-project.sh, which should live at the top directory. This bash script can call other bash scripts in subfolders, if necessary. Bash scripts should use the runFileSaveLogs utility script, which is a wrapper around the Rscript command, allowing you to specify where .Rout log files are moved after the R scripts are run.</p>
-<p>See usage and documentation <a href="https://jadebc.github.io/lab-manual/unix.html#example-code-for-runfilesavelogs">here.</a></p>
-</div>
-<div id="complete-the-readme" class="section level2 hasAnchor" number="14.7">
-<h2><span class="header-section-number">14.7</span> Complete the README<a href="code-publication.html#complete-the-readme" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>A README.md should live at the top directory of the project. This usually includes a Project Overview and a Directory Structure, along with the names of the contributors and the Creative Commons License. See below for a template:</p>
-<blockquote>
-<p><strong>Overview</strong></p>
-<p>To date, coronavirus testing in the US has been extremely limited. Confirmed COVID-19 case counts underestimate the total number of infections in the population. We estimated the total COVID-19 infections – both symptomatic and asymptomatic – in the US in March 2020. We used a semi-Bayesian approach to correct for bias due to incomplete testing and imperfect test performance.</p>
-<p><strong>Directory structure</strong></p>
+<div id="lab-safety" class="section level1 hasAnchor" number="4">
+<h1><span class="header-section-number">Chapter 4</span> Lab Safety<a href="lab-safety.html#lab-safety" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>by Jess Grembi</p>
+<p>Safety, health, and environmental stewardship are priorities at Penn State. In particular, our lab handles samples that could potentially contain BSL2 organisms - these are pathogens that can cause diarrheal illness that is self-limiting (not life threatening). We do not want to get ourselves or others sick so we adhere to strict protocols to reduce exposure when working in the lab.</p>
+<p>The <a href="https://ehs.psu.edu/">Environmental Health and Safety (EHS)</a> team at PSU is a resource to help labs ensure we are in compliance with Federal and State laws, University directives, and are doing our best to support safety, health, and environmental stewardship. If you have any questions about these topics, feel free to reach out to Dr. Grembi or the lab Safety Officer. If we can’t answer your question, we can reach out to EHS for their assistance.</p>
+<p><strong><em>The lab Safety Officer is Pablo Ochoa-Andersen</em></strong></p>
+<div id="key-points-regarding-safety" class="section level2 hasAnchor" number="4.1">
+<h2><span class="header-section-number">4.1</span> Key points regarding safety:<a href="lab-safety.html#key-points-regarding-safety" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <ul>
-<li><p>0-config.R: configuration file that sets data directories, sources base functions, and loads required libraries</p></li>
-<li><p>0-base-functions: folder containing scripts with functions used in the analysis</p>
-<ul>
-<li><p>0-base-functions.R: R script containing general functions used across the analysis</p></li>
-<li><p>0-bias-corr-functions.R: R script containing functions used in bias correction</p></li>
-<li><p>0-bias-corr-functions-undertesting.R: R script containing functions used in bias correction to estimate the percentage of underestimation due to incomplete testing vs. imperfect test accuracy</p></li>
-<li><p>0-prior-functions.R: R script containing functions to generate priors</p></li>
-</ul></li>
-<li><p>1-data: folder containing data processing scripts NOTE: some scripts are deprecated</p></li>
-<li><p>2-analysis: folder containing analysis scripts. To rerun all scripts in this subdirectory, run the bash script 0-run-analysis.sh.</p>
-<ul>
-<li><p>1-obtain-priors-state.R: obtain priors for each state</p></li>
-<li><p>2-est-expected-cases-state.R: estimate expected cases in each state</p></li>
-<li><p>3-est-expected-cases-state-perf-testing.R: estimate expected cases in each state, estimate the percentage of underestimation due to incomplete testing vs. imperfect test accuracy</p></li>
-<li><p>4-obtain-testing-protocols.R: find testing protocols for each state.</p></li>
-<li><p>5-summarize-results.R: summarize results; obtain results for in text numerical results.</p></li>
-</ul></li>
-<li><p>3-figure-table-scripts: folder containing figure scripts. To rerun all scripts in this subdirectory, run the bash script 0-run-figs.sh.</p>
-<ul>
-<li><p>1-fig-testing.R: creates plot of testing patterns by state over time</p></li>
-<li><p>2-fig-cases-usa-state-bar.R: creates bar plot of confirmed vs. estimated infections by state</p></li>
-<li><p>3a-fig-map-usa-state.R: creates map of confirmed vs. estimated infections by state</p></li>
-<li><p>3b-fig-map-usa-state-shiny.R: creates map of confirmed vs. estimated infections by state with search functionality by state</p></li>
-<li><p>4-fig-priors.R: creates figure with priors for US as a whole</p></li>
-<li><p>5-fig-density-usa.R: creates figure of distribution of estimated cases in the US</p></li>
-<li><p>6-table-data-quality.R: creates table of data quality grading from COVID Tracking Project</p></li>
-<li><p>7-fig-testpos.R: creates figure of the probability of testing positive among those tested by state</p></li>
-<li><p>8-fig-percent-undertesting-state.R: creates figure of the percentage of under estimation due to incomplete testing</p></li>
-</ul></li>
-<li><p>4-figures: folder containing figure files.</p></li>
-<li><p>5-results: folder containing analysis results objects.</p></li>
-<li><p>6-sensitivity: folder containing scripts to run the sensitivity analyses</p></li>
+<li><p>Appropriate lab attire includes closed toe shoes and long pants.</p></li>
+<li><p>Gloves are not worn when opening doors or touching objects that may spread contamination to others.</p></li>
+<li><p>All gloves are permeable and will eventually allow chemicals and biological agents to come into contact with your skin. Thus, double glove if you plan to work with any harsh chemicals and replace gloves as soon as feasible after they become contaminated.</p></li>
+<li><p>When using Biosafety cabinets ensure that you are not restricting airflow (with your body or with equipment placed into the cabinet).</p></li>
 </ul>
-<p><strong>Contributors:</strong> Jade Benjamin-Chung, Sean L. Wu, Anna Nguyen, Stephanie Djajadi, Nolan N. Pokpongkiat, Anmol Seth, Andrew Mertens</p>
-<p>Wu SL, Mertens A, Crider YS, Nguyen A, Pokpongkiat NN, Djajadi S, et al. Substantial underestimation of SARS-CoV-2 infection in the United States due to incomplete testing and imperfect test accuracy. medRxiv. 2020; 2020.05.12.20091744. <a href="doi:10.1101/2020.05.12.20091744" class="uri">doi:10.1101/2020.05.12.20091744</a></p>
-</blockquote>
-<p>When possible, also include a description of the RDS results that are generated, detailing what data sources were used, where the script lives that creates it, and what information the RDS results hold.</p>
 </div>
-<div id="clean-up-feature-branches" class="section level2 hasAnchor" number="14.8">
-<h2><span class="header-section-number">14.8</span> Clean up feature branches<a href="code-publication.html#clean-up-feature-branches" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>In the remote repository on Github, all feature branches aside from master should be merged in and deleted. All outstanding PRs should be closed.</p>
+<div id="required-institutional-lab-safety-training" class="section level2 hasAnchor" number="4.2">
+<h2><span class="header-section-number">4.2</span> Required Institutional Lab Safety Training<a href="lab-safety.html#required-institutional-lab-safety-training" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>There are several required trainings before anyone can work in the lab. Please ensure you have completed all trainings <strong><em>and provided certificates to the Lab Safety Officer</em></strong> before performing any work in the lab.</p>
+<div id="the-following-trainings-can-be-accessed-from-the-ehs-training-website" class="section level3 hasAnchor" number="4.2.1">
+<h3><span class="header-section-number">4.2.1</span> The following trainings can be accessed from the <a href="https://ehs.psu.edu/training">EHS training website</a><a href="lab-safety.html#the-following-trainings-can-be-accessed-from-the-ehs-training-website" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li>Hazard Communication (HazCom) Training</li>
+<li>Laboratory and Research Safety Training (initial and then annual refresher)</li>
+<li>Biosafety cabinet training</li>
+<li>Regulated Medical Waste</li>
+<li>Spill Prevention and Response</li>
+<li>Compressed gas training (if using the Coy)</li>
+<li>Autoclave Safety (if using the autoclave)</li>
+</ul>
 </div>
-<div id="create-github-release" class="section level2 hasAnchor" number="14.9">
-<h2><span class="header-section-number">14.9</span> Create Github release<a href="code-publication.html#create-github-release" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Once all of these items are verified, create a tag to make a Github release, which will tag the repository, creating a marker at this specific point in time.</p>
-<p>Detailed instructions <a href="https://docs.github.com/en/enterprise/2.13/user/articles/creating-releases">here.</a></p>
+<div id="our-lab-is-a-biosafety-level-2-bsl2-lab-which-requires-the-following-trainings-that-can-be-accessed-from-the-citi-website" class="section level3 hasAnchor" number="4.2.2">
+<h3><span class="header-section-number">4.2.2</span> Our lab is a Biosafety Level 2 (BSL2) lab, which requires the following trainings that can be accessed from the <a href="https://citi.psu.edu/">CITI website</a><a href="lab-safety.html#our-lab-is-a-biosafety-level-2-bsl2-lab-which-requires-the-following-trainings-that-can-be-accessed-from-the-citi-website" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li>Yearly Biosafety training</li>
+<li>Bloodborne Pathogens - Research Personnel</li>
+</ul>
+</div>
+</div>
+<div id="lab-safety-tour-and-site-specific-hazard-identification" class="section level2 hasAnchor" number="4.3">
+<h2><span class="header-section-number">4.3</span> Lab Safety Tour and site-specific hazard identification<a href="lab-safety.html#lab-safety-tour-and-site-specific-hazard-identification" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Prior to conducting any work in the lab, new members will be given a lab safety tour by the Safety Officer where you will be shown the major hazards in the lab, and introduced to our lab-specific safety protocols. The safety tour will conclude with a review the Unit Specific Plan, and you will be asked to sign that you understand the hazards present in the lab and the protocols in place to minimize risk.</p>
+</div>
+<div id="lab-safety-officer-responsibilities" class="section level2 hasAnchor" number="4.4">
+<h2><span class="header-section-number">4.4</span> Lab Safety Officer Responsibilities<a href="lab-safety.html#lab-safety-officer-responsibilities" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>Serve as the Chemical Safety Officer (CHO)</li>
+<li>Weekly Hazardous waste accumulation point check</li>
+<li>Weekly eyewash station inspection and testing (verify with Huck if they do this or if we need to?)</li>
+<li>Monthly safety inspections</li>
+</ul>
 
 </div>
 </div>
@@ -495,8 +454,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           </div>
         </div>
       </div>
-<a href="reproducible-environments.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="data-publication.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="communication-and-coordination.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="reproducibility.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -527,7 +486,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/jgrembi/lab-manual/edit/master/13-code-publication.Rmd",
+"link": "https://github.com/jgrembi/lab-manual/edit/master/03-lab-safety.Rmd",
 "text": "Edit"
 },
 "history": {

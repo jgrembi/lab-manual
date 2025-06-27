@@ -1,10 +1,10 @@
-#Lab Safety
+# Lab Safety
 
 by Jess Grembi
 
 Safety, health, and environmental stewardship are priorities at Penn State.  In particular, our lab handles samples that could potentially contain BSL2 organisms - these are pathogens that can cause diarrheal illness that is self-limiting (not life threatening).  We do not want to get ourselves or others sick so we adhere to strict protocols to reduce exposure when working in the lab.
 
-The Environmental Health and Safety (EHS) team is a resource to help  labs ensure we are in compliance with Federal and State laws, University directives, and are doing our best to support safety, health, and environmental stewardship (link to EHS website).  If you have any questions about these topics, feel free to reach out to Dr. Grembi or the lab Safety Officer.  If we can’t answer your question, and we can reach out to EHS for their assistance.
+The [Environmental Health and Safety (EHS)](https://ehs.psu.edu/) team at PSU is a resource to help labs ensure we are in compliance with Federal and State laws, University directives, and are doing our best to support safety, health, and environmental stewardship.  If you have any questions about these topics, feel free to reach out to Dr. Grembi or the lab Safety Officer.  If we can’t answer your question, we can reach out to EHS for their assistance.
 
 ***The lab Safety Officer is Pablo Ochoa-Andersen***
 

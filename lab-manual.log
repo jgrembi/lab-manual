@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.1.31)  27 JUN 2025 10:08
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.1.31)  27 JUN 2025 16:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -467,8 +467,7 @@ File: bkm-dvipdfm.def 2023-12-10 v1.31 bookmark driver for dvipdfm (HO)
 \BKM@id=\count321
 )) (/usr/local/texlive/2024/texmf-dist/tex/latex/xurl/xurl.sty
 Package: xurl 2022/01/09 v 0.10 modify URL breaks
-)
-No file lab-manual.aux.
+) (./lab-manual.aux)
 \openout1 = `lab-manual.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 131.
@@ -775,9 +774,6 @@ File: mt-LatinModernRoman.cfg 2021/02/21 v1.1 microtype config. file: Latin Mod
 ern Roman (RS)
 )
 Package hyperref Info: Link coloring OFF on input line 131.
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 133.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
@@ -819,57 +815,58 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 ] [2
 
-]
-No file lab-manual.toc.
+] (./lab-manual.toc
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 2.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 5.0pt on input line 2.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 10.00092pt on input line 2.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.00064pt on input line 2.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.00046pt on input line 2.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 9.99893pt on input line 2.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 6.99925pt on input line 2.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 2.
+[3] [4] [5])
 \tf@toc=\write4
 \openout4 = `lab-manual.toc'.
 
-[3] [4
-
-]
+[6]
 Chapter 1.
-[5] [6]
-Chapter 2.
 [7
 
-] [8] [9] [10]
+] [8]
+Chapter 2.
+[9
+
+] [10] [11] [12]
 Chapter 3.
 
 Underfull \vbox (badness 2027) has occurred while \output is active []
 
-[11
+[13
 
-] [12]
-Underfull \vbox (badness 2310) has occurred while \output is active []
-
-[13] [14]
+] [14]
 Chapter 4.
 [15
+
+] [16]
+Chapter 5.
+[17
 
 ]
 
 Package hyperref Warning: Suppressing link with empty target on input line 413.
 
 
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 415.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 415.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00092pt on input line 415.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00064pt on input line 415.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00046pt on input line 415.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 415.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 415.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 415.
-[16] [17] [18]
-Chapter 5.
-[19
+[18] [19] [20]
+Chapter 6.
+[21
 
 ]
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <14.4> not available
@@ -877,21 +874,17 @@ LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <14.4> not available
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[20]
-
-LaTeX Warning: Hyper reference `unix' on page 21 undefined on input line 584.
-
-[21] [22
+[22] [23] [24
 
 ]
-Chapter 6.
+Chapter 7.
 
 Overfull \hbox (75.0pt too wide) in paragraph at lines 625--625
 []\TU/lmtt/m/n/10 #############################################################
 ###################[] 
  []
 
-[23]
+[25]
 Overfull \hbox (75.0pt too wide) in paragraph at lines 625--625
 []\TU/lmtt/m/n/10 #############################################################
 ###################[] 
@@ -903,7 +896,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 647--648
 
  []
 
-[24]
+[26]
 Overfull \hbox (33.0pt too wide) in paragraph at lines 674--674
 []\TU/lmtt/m/n/10 # data: a data frame with variables flu_season, site, studyID
 , and yname[] 
@@ -921,10 +914,10 @@ Overfull \hbox (17.25pt too wide) in paragraph at lines 674--674
 not True[] 
  []
 
-[25] [26]
+[27] [28]
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
 (Font)              Font shape `TU/lmtt/b/n' tried instead on input line 734.
-[27]
+[29]
 Underfull \hbox (badness 10000) in paragraph at lines 758--760
 \TU/lmr/m/n/10 file, with \TU/lmtt/m/n/10 box_auth(client_id = "<your_client_id
 >", client_secret
@@ -936,35 +929,35 @@ Overfull \hbox (17.25pt too wide) in paragraph at lines 779--779
  revoked[] 
  []
 
-[28]
+[30]
 Overfull \hbox (6.75pt too wide) in paragraph at lines 813--814
 \TU/lmtt/m/n/10 dplyr::filter(get_rows_condition)|  
  []
 
-[29] [30]
+[31] [32]
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
 (Font)              Font shape `TU/lmtt/b/n' tried instead on input line 891.
-[31]
+[33]
 Overfull \hbox (80.25pt too wide) in paragraph at lines 913--913
 []  \TU/lmtt/m/n/10 result <- lapply(X = mylist2, FUN = function(y) square_sum(
 mylist1[[1]][i], y))[] 
  []
 
-[32]
+[34]
 Overfull \hbox (48.75pt too wide) in paragraph at lines 943--943
 []\TU/lmtt/m/n/10 # Set how many processors will be used to process the list an
 d make cluster[] 
  []
 
-[33]
+[35]
 
-LaTeX Warning: Hyper reference `Github' on page 34 undefined on input line 972.
+LaTeX Warning: Hyper reference `Github' on page 36 undefined on input line 972.
 
 
-[34] [35] [36
+[36] [37] [38
 
 ]
-Chapter 7.
+Chapter 8.
 
 Overfull \hbox (75.0pt too wide) in paragraph at lines 1046--1046
 []\TU/lmtt/m/n/10 #############################################################
@@ -977,7 +970,7 @@ Overfull \hbox (75.0pt too wide) in paragraph at lines 1046--1046
 ###################[] 
  []
 
-[37]
+[39]
 Underfull \hbox (badness 10000) in paragraph at lines 1064--1065
 []\TU/lmtt/m/n/10 # This is a comment -- first letter is capitalized and spaced
 
@@ -1013,7 +1006,7 @@ Overfull \hbox (21.25pt too wide) in paragraph at lines 1106--1106
 ) %>%[] 
  []
 
-[38]
+[40]
 Overfull \hbox (37.0pt too wide) in paragraph at lines 1143--1143
  []  \TU/lmtt/m/n/10 geom_errorbar(mapping=aes_string(ymin="lb", ymax="ub", col
 =group),[] 
@@ -1039,7 +1032,7 @@ Underfull \hbox (badness 1478) in paragraph at lines 1148--1148
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[39]
+[41]
 Overfull \hbox (216.75pt too wide) in paragraph at lines 1176--1176
 []  \TU/lmtt/m/n/10 "Brookfield Village Elementary" = str_subset(string = OUSD_
 school_shapes$schnam, pattern = "Brookfield"),[] 
@@ -1177,31 +1170,161 @@ Overfull \hbox (258.75pt too wide) in paragraph at lines 1194--1194
 OUSD_school_shapes$schnam, pattern = "Rise Community")[] 
  []
 
-[40] [41] [42
+[42] [43] [44
 
 ]
-Chapter 8.
+Chapter 9.
 
 Underfull \vbox (badness 3354) has occurred while \output is active []
 
-[43] [44]
-Chapter 9.
+[45] [46]
+Chapter 10.
+File: assets/images/data-masking.PNG Graphic file (type bmp)
+<assets/images/data-masking.PNG>
+[47
 
-LaTeX Warning: File `/assets/images/data-masking.PNG' not found on input line 1
-276.
+] [48]
+Underfull \hbox (badness 1122) in paragraph at lines 1314--1317
+[]\TU/lmr/m/n/10 The combined use of \TU/lmtt/m/n/10 !! \TU/lmr/m/n/10 and \TU/
+lmtt/m/n/10 sym() \TU/lmr/m/n/10 allows us to use strings, rather
+ []
 
-! Unable to load picture or PDF file '/assets/images/data-masking.PNG'.
-<to be read again> 
-                   }
-l.1276 ...raphics{/assets/images/data-masking.PNG}
-                                                   
+[49] [50] [51] [52
+
+]
+Chapter 11.
+[53] [54]
+Underfull \vbox (badness 2495) has occurred while \output is active []
+
+[55] [56]
+Chapter 12.
+File: assets/images/ex-desktop.jpg Graphic file (type bmp)
+<assets/images/ex-desktop.jpg>
+[57
+
+]
+File: assets/images/ex-terminal.PNG Graphic file (type bmp)
+<assets/images/ex-terminal.PNG>
+
+LaTeX Warning: Float too large for page by 36.06166pt on input line 1587.
+
+
+Overfull \hbox (17.2224pt too wide) in paragraph at lines 1609--1609
+\TU/lmtt/m/n/10 bash_script_name.sh 
+ []
+
+[58]
+Underfull \hbox (badness 10000) in paragraph at lines 1638--1639
+\TU/lmtt/m/n/10 without hex digits in character string starting "[]C:\U"\TU/lmr
+/m/n/10 , try
+ []
+
+[59] [60] [61] [62]
+Underfull \vbox (badness 10000) detected at line 1786
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1786
+ []
+
+[63] [64]
+Chapter 13.
+[65
+
+]
+Overfull \hbox (25.07903pt too wide) in paragraph at lines 1847--1849
+[]\TU/lmr/m/n/10 This will create the following files: \TU/lmtt/m/n/10 renv.loc
+k\TU/lmr/m/n/10 , .\TU/lmtt/m/n/10 Rprofile\TU/lmr/m/n/10 , \TU/lmtt/m/n/10 ren
+v/settings.json
+ []
+
+
+Underfull \hbox (badness 2941) in paragraph at lines 1849--1851
+[]\TU/lmr/m/n/10 As you write code, update the project’s R library by running
+ []
+
+[66]
+Chapter 14.
+
+Underfull \vbox (badness 1107) has occurred while \output is active []
+
+[67
+
+] [68]
+Underfull \hbox (badness 1303) in paragraph at lines 1958--1959
+[]\TU/lmr/m/n/10 2-analysis: folder containing analysis scripts. To rerun
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1966--1968
+[]\TU/lmr/m/n/10 3-est-expected-cases-state-perf-testing.R: estimate ex-
+ []
+
+[69] [70]
+Chapter 15.
+[71
+
+] [72] [73]
+Underfull \hbox (badness 10000) in paragraph at lines 2120--2122
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2122--2124
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2124--2126
+
+ []
+
+[74]
+
+LaTeX Warning: Hyper reference `renv' on page 75 undefined on input line 2162.
+
+[75] [76]
+Chapter 16.
+[77
+
+] [78] [79] [80] [81] [82] [83]
+Overfull \hbox (7.98502pt too wide) in paragraph at lines 2501--2503
+[]\TU/lmtt/m/n/10 output=00-run_inc_log.out\TU/lmr/m/n/10 : Create a log file c
+alled \TU/lmtt/m/n/10 00-run_inc_log.out
+ []
+
+[84] [85] [86
+
+]
+Chapter 17.
+[87]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[88] [89] [90
+
+]
+Chapter 18.
+
+Underfull \vbox (badness 2846) has occurred while \output is active []
+
+[91]
+No file lab-manual.bbl.
+[92] (./lab-manual.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+ ***********
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 19469 strings out of 474773
- 355560 string characters out of 5757724
+ 19697 strings out of 474773
+ 359268 string characters out of 5757724
  1935839 words of memory out of 5000000
- 41349 multiletter control sequences out of 15000+600000
- 564560 words of font info for 94 fonts, out of 8000000 for 9000
+ 41566 multiletter control sequences out of 15000+600000
+ 564568 words of font info for 95 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 90i,7n,121p,1108b,526s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,7n,121p,1108b,562s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on lab-manual.pdf (44 pages).
+Output written on lab-manual.pdf (92 pages).
