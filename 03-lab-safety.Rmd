@@ -41,7 +41,7 @@ There are several required trainings before anyone can work in the lab.  Please 
 
 ### Since we work with Bloodborne Pathogens, everyone working in the lab needs to be offered updated Hepatitis B vaccination
 - The Bloodborne Pathogen Immunization Determination form can be found [here](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://ehs.psu.edu/sites/ehs/files/immunizationdetermination.doc&ved=2ahUKEwjktPLn3JuOAxVVKlkFHRmKLBgQFnoECBcQAQ&usg=AOvVaw1VFj5u8sX_YtMgqAmODOI2)
--This needs to be sent to Occupational Medicine, a normal course is two vaccinations one month apart
+- This needs to be sent to Occupational Medicine, a normal course is two vaccinations one month apart
 
 
 ## Lab Safety Tour and site-specific hazard identification
