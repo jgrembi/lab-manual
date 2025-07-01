@@ -12,11 +12,14 @@ The [Environmental Health and Safety (EHS)](https://ehs.psu.edu/) team at PSU is
 
 - Appropriate lab attire includes closed toe shoes and long pants.
 
+- Do not keep food or drink in the lab area.
+
 - Gloves are not worn when opening doors or touching objects that may spread contamination to others.
 
 - All gloves are permeable and will eventually allow chemicals and biological agents to come into contact with your skin.  Thus, double glove if you plan to work with any harsh chemicals and replace gloves as soon as feasible after they become contaminated.
 
 - When using Biosafety cabinets ensure that you are not restricting airflow (with your body or with equipment placed into the cabinet).
+
 
 ## Required Institutional Lab Safety Training 
 
@@ -35,6 +38,10 @@ There are several required trainings before anyone can work in the lab.  Please 
 ### Our lab is a Biosafety Level 2 (BSL2) lab, which requires the following trainings that can be accessed from the [CITI website](https://citi.psu.edu/)
 - Yearly Biosafety training
 - Bloodborne Pathogens - Research Personnel
+
+### Since we work with Bloodborne Pathogens, everyone working in the lab needs to be offered updated Hepatitis B vaccination
+- The Bloodborne Pathogen Immunization Determination form can be found [here](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://ehs.psu.edu/sites/ehs/files/immunizationdetermination.doc&ved=2ahUKEwjktPLn3JuOAxVVKlkFHRmKLBgQFnoECBcQAQ&usg=AOvVaw1VFj5u8sX_YtMgqAmODOI2)
+-This needs to be sent to Occupational Medicine, a normal course is two vaccinations one month apart
 
 
 ## Lab Safety Tour and site-specific hazard identification
