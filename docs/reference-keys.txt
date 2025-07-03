@@ -22,6 +22,7 @@ key-points-regarding-safety
 required-institutional-lab-safety-training
 the-following-trainings-can-be-accessed-from-the-ehs-training-website
 our-lab-is-a-biosafety-level-2-bsl2-lab-which-requires-the-following-trainings-that-can-be-accessed-from-the-citi-website
+since-we-work-with-bloodborne-pathogens-everyone-working-in-the-lab-needs-to-be-offered-updated-hepatitis-b-vaccination
 lab-safety-tour-and-site-specific-hazard-identification
 lab-safety-officer-responsibilities
 reproducibility

@@ -172,6 +172,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <ul>
 <li class="chapter" data-level="4.2.1" data-path="lab-safety.html"><a href="lab-safety.html#the-following-trainings-can-be-accessed-from-the-ehs-training-website"><i class="fa fa-check"></i><b>4.2.1</b> The following trainings can be accessed from the EHS training website</a></li>
 <li class="chapter" data-level="4.2.2" data-path="lab-safety.html"><a href="lab-safety.html#our-lab-is-a-biosafety-level-2-bsl2-lab-which-requires-the-following-trainings-that-can-be-accessed-from-the-citi-website"><i class="fa fa-check"></i><b>4.2.2</b> Our lab is a Biosafety Level 2 (BSL2) lab, which requires the following trainings that can be accessed from the CITI website</a></li>
+<li class="chapter" data-level="4.2.3" data-path="lab-safety.html"><a href="lab-safety.html#since-we-work-with-bloodborne-pathogens-everyone-working-in-the-lab-needs-to-be-offered-updated-hepatitis-b-vaccination"><i class="fa fa-check"></i><b>4.2.3</b> Since we work with Bloodborne Pathogens, everyone working in the lab needs to be offered updated Hepatitis B vaccination</a></li>
 </ul></li>
 <li class="chapter" data-level="4.3" data-path="lab-safety.html"><a href="lab-safety.html#lab-safety-tour-and-site-specific-hazard-identification"><i class="fa fa-check"></i><b>4.3</b> Lab Safety Tour and site-specific hazard identification</a></li>
 <li class="chapter" data-level="4.4" data-path="lab-safety.html"><a href="lab-safety.html#lab-safety-officer-responsibilities"><i class="fa fa-check"></i><b>4.4</b> Lab Safety Officer Responsibilities</a></li>
@@ -417,14 +418,18 @@ git clone https://github.com/jadebc/covid19-infections.git</code></pre>
 </div>
 <div id="submitting-jobs" class="section level3 hasAnchor" number="16.1.2">
 <h3><span class="header-section-number">16.1.2</span> Submitting jobs<a href="slurm.html#submitting-jobs" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>ROAR has various CPU and GPU compute resources. On the basic cluster, all users have access to the following resources (across all jobs they have submitted):
-48h runtime
-800 GB
-100 cores</p>
-<p>There are 3 different hardware partitions, and you need to specify which you want your jobs to run on:
-basic cores: 4GB/core
-standard cores: 8GB/core
-high memory cores: 20GB/core</p>
+<p>ROAR has various CPU and GPU compute resources. On the basic cluster, all users have access to the following resources (across all jobs they have submitted):</p>
+<ul>
+<li>48h runtime</li>
+<li>800 GB</li>
+<li>100 cores</li>
+</ul>
+<p>There are 3 different hardware partitions, and you need to specify which you want your jobs to run on:</p>
+<ul>
+<li>basic cores: 4GB/core</li>
+<li>standard cores: 8GB/core</li>
+<li>high memory cores: 20GB/core</li>
+</ul>
 <p>The task/job being run should dictate which partition you should use.</p>
 <p>Your credit account ” jag548_cr_credit” is active. To use the account, you will need to specify it in your job submission by either selecting it via the drop down options on the portal, or by using the directive “–account= jag548_cr_credit”. Additionally, you will also need to specify the desired hardware partition for your job to launch correctly. The options are “basic”, “standard”, and “himem”.</p>
 </div>
