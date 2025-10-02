@@ -41,6 +41,11 @@ There are several required trainings before anyone can work in the lab.  Please 
 - Yearly Biosafety training
 - Bloodborne Pathogens - Research Personnel
 
+### After completing the CITI trainings, they will be populated into Penn State's Safety Tracking System (CATS).
+- You will need to manually update your experience with lab safety.
+- For example, if you have prior experience working with BSL-2 organisms, that should be noted.
+- Directions for logging into CATS and editing your profile can be found [here](https://researchsupport.psu.edu/orp/ibc/events-training-resources/update-personnel-experience-in-cats-safety/).
+
 ### Since we work with Bloodborne Pathogens, everyone working in the lab needs to be offered updated Hepatitis B vaccination
 - The Bloodborne Pathogen Immunization Determination form can be found [here](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://ehs.psu.edu/sites/ehs/files/immunizationdetermination.doc&ved=2ahUKEwjktPLn3JuOAxVVKlkFHRmKLBgQFnoECBcQAQ&usg=AOvVaw1VFj5u8sX_YtMgqAmODOI2)
 - This needs to be sent to Occupational Medicine, a normal course is two vaccinations one month apart
