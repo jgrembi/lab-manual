@@ -79,11 +79,11 @@ This guide is specific to our lab work. If you’re working on coursework, a cla
 ## One Health Microbiome Center Co-laboratory
 
 ###Background
-- Mission Statement: The OHMC-CL exists to catalyze cutting edge microbiome science at PSU through facilitating independent access to cutting edge high-throughput technologies for microbiome profiling.
-- What the OHMC-CL is: The OHMC-CL is collaborative space with shared equipment, resources, and protocols for microbiome characterization. The goal is for users across PSU to be able to access and use these resources to enable their research.
-- What the OHMC-CL is not: The OHMC-CL is not a pay-for-service core. Typical core services are not provided. The ultimate success of any given project is the responsibility of the trainee or user. It is expected that all users will participate in scheduled training sessions and become independent users. Users who do not anticipate becoming independent users are instead encouraged to explore core services through the Huck Genomics Core or external service providers. Recommendations specific to the project can be provided upon request.
-- What has the OHMC-CL enabled? In the first year and a half of operation, users have profiled 6,140 samples from a variety of sources including human, mouse, soil, plant, livestock, poultry, and environmental sources. There have been a total of 34 users, from 22 labs, from 12 different departments. Users have performed a mixture of sample extraction, qPCR, amplicon, and metagenomic sequencing.
-###Why does the OHMC-CL exist?
+*Mission Statement:* The OHMC-CL exists to catalyze cutting edge microbiome science at PSU through facilitating independent access to cutting edge high-throughput technologies for microbiome profiling.
+*What the OHMC-CL is:* The OHMC-CL is collaborative space with shared equipment, resources, and protocols for microbiome characterization. The goal is for users across PSU to be able to access and use these resources to enable their research.
+*What the OHMC-CL is not:* The OHMC-CL is not a pay-for-service core. Typical core services are not provided. The ultimate success of any given project is the responsibility of the trainee or user. It is expected that all users will participate in scheduled training sessions and become independent users. Users who do not anticipate becoming independent users are instead encouraged to explore core services through the Huck Genomics Core or external service providers. Recommendations specific to the project can be provided upon request.
+*What has the OHMC-CL enabled?* In the first year and a half of operation, users have profiled 6,140 samples from a variety of sources including human, mouse, soil, plant, livestock, poultry, and environmental sources. There have been a total of 34 users, from 22 labs, from 12 different departments. Users have performed a mixture of sample extraction, qPCR, amplicon, and metagenomic sequencing.
+*Why does the OHMC-CL exist?*
 - Community support: There are 550 OHMC members across 42 departments, and 10 colleges at
 PSU. While our research interests are highly varied, many of us use the same ‘omics-based
 approaches to interrogate our microbial communities. The OHMC-CL exists to facilitate the sharing of technical knowledge and resources to lower boundaries to using ‘omics based approaches to study microbial communities.
@@ -94,6 +94,43 @@ sequencer and chemistry used. In effect, it is possible to obtain amplicon seque
 sequencing at $\sim$\$30/sample (10Gb/sample via NovaSeq X 25B reagents). To reach these costs,
 hundreds of samples need to be sequenced at a time; however, most users do not have the required number of samples to reach this economy of scale. The OHMC-CL provides an opportunity to pool samples across labs to create cost savings for our community.
 
+###Becoming an OHMC-CL User
+*Intake Form and Meeting:* All new users must complete an intake form available [here](https://docs.google.com/forms/d/e/1FAIpQLSffei_1Tbnz93hO3syqv_qpWeaec29JRwlvIQKdmADdvBZdrQ/viewform) using their PSU login. The information collected in this form is used to help report usage both internally and externally. It is requested that each new project performed in the OHMC-CL has its own intake form. After reviewing the form, we will reach out to schedule a meeting with the trainee and PI to discuss project needs and to identify appropriate equipment and protocols.
 
+*Responsibilities of Trainees:*
+1) Attend a training session before using any OHMC-CL equipment.
+2) After training, operate equipment independently and responsibly.
+3) Schedule equipment in advance and cancel reservations in a timely manner if needed.
+4) Bring all necessary items and reagents with you to perform your work. Clean and reset
+equipment/workspaces after use.
+5) Troubleshoot experiments with your PI. Ask for help via the OHMC-Co-lab Slack only after making
+a good-faith effort to resolve issues independently.
+6) Contribute back to the co-lab by helping to train others, suggesting and testing protocol
+improvements, making amendments to protocols on github, and sharing tips via Slack.
 
+*Responsibilities of Supervisors:*
+1) Support trainees in troubleshooting and data interpretation within their home lab.
+2) Reinforce expectations for independent use and respectful engagement with co-lab infrastructure.
+3) Assist in evaluating whether a trainee's project is appropriate for the co-lab versus a fee-for-service
+option.
+
+*Communicating with other OHMC-CL Users:* The preferred mode of communication for the OHMC-CL users is through a slack work group. An invite link is available [here](). Please send all communications through this channel including requests for help troubleshooting. This will facilitate disseminating knowledge across the user base and allowing users to help other users.
+
+*Training:* Researchers will be trained to operate laboratory equipment used in microbiome workflows, including automated liquid handlers for 96-well nucleic acid extraction, library preparation, and qPCR. Training covers how to set up, troubleshoot, and maintain instruments. Sessions are held every other month to support consistent onboarding and skill-building. The training schedule will be posted in the Training channel of the OHMC-CL slack group. Training is currently offered on:
+- High throughput DNA extraction using QIAcube HT and Powersoil reagents
+- Integra mini-96 pipettes
+- Primary PCR for amplicon sequencing
+- qPCR via the QIAquant 384
+- Tapestation analysis of DNA/RNA samples
+- Metagenomic library preparation
+
+*Access:* Users will be able to access the OHMC-CL during normal business hours; however, card access will not be given due to biosafety protocols.
+
+*Requesting donated reagents:* We receive an annual donation which is allocated among users. Best efforts are made to ensure allocations are evenly spread among lab groups; however, users with funded projects are encouraged to use their support to purchase consumables, thus allowing donated resources to seed future funding.
+
+*Scheduling equipment:* Equipment is available on a first-come first-served basis and must be reserved via the link in each equipment’s slack channel. Frequent last minute cancellation will lead to a loss of scheduling privileges.
+
+*Contributing to the OHMC-CL:* Since the OHMC-CL runs on donated equipment, reagents, and time, it is expected that all users will give back to the OHMC-CL. Examples of how users may contribute include:
+1. Becoming a trainer: users who have become competent with specific equipment will be invited to carry out training of new users.
+2. Contributing to protocols: users are expected to contribute to both new and existing protocols. Protocols are available via github and may be modified freely. This could include clarifying wording, adding pictures, etc. Anything to help future users. Please make a pull request for changes to be merged into the protocol.
 
