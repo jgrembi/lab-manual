@@ -1,4 +1,4 @@
-# Culture and conduct
+# Culture, conduct, and co-lab
 
 by Jess Grembi
 
@@ -75,6 +75,24 @@ If you don’t already understand the concept or method, you probably won’t be
  
 ### Other contexts have other rules
 This guide is specific to our lab work. If you’re working on coursework, a class presentation, a fellowship application, or a conference submission, you must follow their guidelines about AI use and authorship.
+
+## One Health Microbiome Center Co-laboratory
+
+###Background
+- Mission Statement: The OHMC-CL exists to catalyze cutting edge microbiome science at PSU through facilitating independent access to cutting edge high-throughput technologies for microbiome profiling.
+- What the OHMC-CL is: The OHMC-CL is collaborative space with shared equipment, resources, and protocols for microbiome characterization. The goal is for users across PSU to be able to access and use these resources to enable their research.
+- What the OHMC-CL is not: The OHMC-CL is not a pay-for-service core. Typical core services are not provided. The ultimate success of any given project is the responsibility of the trainee or user. It is expected that all users will participate in scheduled training sessions and become independent users. Users who do not anticipate becoming independent users are instead encouraged to explore core services through the Huck Genomics Core or external service providers. Recommendations specific to the project can be provided upon request.
+- What has the OHMC-CL enabled? In the first year and a half of operation, users have profiled 6,140 samples from a variety of sources including human, mouse, soil, plant, livestock, poultry, and environmental sources. There have been a total of 34 users, from 22 labs, from 12 different departments. Users have performed a mixture of sample extraction, qPCR, amplicon, and metagenomic sequencing.
+###Why does the OHMC-CL exist?
+- Community support: There are 550 OHMC members across 42 departments, and 10 colleges at
+PSU. While our research interests are highly varied, many of us use the same ‘omics-based
+approaches to interrogate our microbial communities. The OHMC-CL exists to facilitate the sharing of technical knowledge and resources to lower boundaries to using ‘omics based approaches to study microbial communities.
+- Equipment: The equipment required to process microbiome samples for sequencing costs hundreds of thousands of dollars. When each lab purchases their own, redundancy and waste are inevitable with capital equipment sitting unused for most of its useful lifetime. Through a variety of sources, including a generous donation from Qiagen, the OHMC-CL enables new labs, or those who are getting into the microbiome space, to use shared equipment creating significant cost savings which may be reinvested into doing science to enable publications and grants.
+- Economy of scale/cost sharing: The major non-personnel costs of microbiome sequencing are
+derived from (i) extraction, (ii) library preparation, and (iii) sequencing. The OHMC-CL enables cost savings in each of these axes. Extraction: through allocations of extraction reagents provided by Qiagen, we can partially, or completely, reduce the major costs of extraction to only pipette tips and minor plastics disposables. Library preparation: through reaction scaling and custom protocols, the cost of library prep can be reduced 5-10x. Further, by trainees making their own libraries, significant savings are derived from labor while also providing marketable and transferable skills. Sequencing:sequencing costs are highly dependent on throughput ranging from \$3/Gb to \$500/Gb depending on
+sequencer and chemistry used. In effect, it is possible to obtain amplicon sequencing at a cost of $\sim$\$4/sample ($\sim$ 100,000 reads/sample via NextSeq 2000 XLEAP reagents), and metagenomic
+sequencing at $\sim$\$30/sample (10Gb/sample via NovaSeq X 25B reagents). To reach these costs,
+hundreds of samples need to be sequenced at a time; however, most users do not have the required number of samples to reach this economy of scale. The OHMC-CL provides an opportunity to pool samples across labs to create cost savings for our community.
 
 
 
