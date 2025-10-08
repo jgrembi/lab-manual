@@ -134,3 +134,39 @@ option.
 1. Becoming a trainer: users who have become competent with specific equipment will be invited to carry out training of new users.
 2. Contributing to protocols: users are expected to contribute to both new and existing protocols. Protocols are available via github and may be modified freely. This could include clarifying wording, adding pictures, etc. Anything to help future users. Please make a pull request for changes to be merged into the protocol.
 
+###Shared Resources
+- Tissuelyzer III (Sample disruption/bead beater)
+- QIAcube HT (automated 96-well extraction)
+- Tapestation 4200 (automated electrophoresis for QC of nucleic acids)
+- QIAquant 384-well qPCR system
+- Integra mini-96 pipettes
+- -20\ang{} C co-lab freezer (limited, temporary storage)
+- Extraction hood (biosafety cabinet for nucleic acid work)
+- Illumina iSeq (pilot scale sequencing runs, metagenomic library QC and normalization)
+
+*Protocol repository* (GitHub link)[https://github.com/BisanzLab/OHMC_Colaboratory]: continually updated by users; includes validated and in-progress protocols for DNA extraction, library prep, and sequencing.
+
+*Unique Dual Indexes:* Illumina DNA prep compatible indexes based on nextera design. 574 indexes are available which are compatible with most illumina PCR-based library preps or for amplicon sequencing.
+
+*Slack Community:* user forum for troubleshooting, sharing knowledge, and training opportunities.
+
+###Sequencing through the OHMC-CL
+
+For users wishing to include their samples for sequencing with other OHMC users, the following input specifications are required.
+
+*Amplicon:* Only samples which have gone through primary PCR to generate an amplicon will be included for communal sequencing runs. These may be generated using any primer set and enzyme so long as the product contains the partial Nextera overlap for indexing. A recommended protocol is available (here)[https://github.com/BisanzLab/OHMC_Colaboratory/blob/main/Protocols/AmpliconSeq/1_PrimaryPCR.md]. We recommend using qPCR to generate amplicons; however, users requiring >30 cycles of PCR will need to use gel electrophoresis or other methods to ensure amplicons have formed. Users who have performed >30 cycles of PCR will be required to do a bead cleanup to remove excessive primer dimers that may cause issues downstream. Users will need to provide their samples in a skirted 96 well plate and include both a printed and digital copy of the layout using this (template)[https://github.com/BisanzLab/OHMC_Colaboratory/blob/main/Templates/0_ExtractionPlate_Template.xlsx].
+
+*Metagenomic Sequencing:* Users wishing to pool samples for metagenomic sequencing *must* request indexes before preparing their libraries. Indexes must be coordinated across users on the run to prevent loss of data. Metagenomic libraries should be at least 1nM in concentration with at least 20 µL. Use of a tapestation or equivalent is required to ensure an appropriate fragment size. Libraries may be directly submitted in skirted 96 well plates including a printed and digital copy of the layout using this (template)[https://github.com/BisanzLab/OHMC_Colaboratory/blob/main/Templates/0_ExtractionPlate_Template.xlsx].
+
+*Cost Sharing for Sequencing:* Users will be required to provide an IO. This IO will be used to purchase sequencing cartridges (amplicon) or to resolve P card charges (metagenomic sequencing). Actual costs will depend on filling the sequencing run. It may take 1-2 months to resolve charges.
+
+###User Acknowledgments
+
+I         (name), a     (current position), working in the lab of       (PI's name), have read this document in its entirety.I understand that the OHMC-Co-lab is a shared, collaborative space that requires personal responsibility and active participation. I agree to follow all co-lab expectations, operate equipment independently after training,
+and seek troubleshooting support within my home lab. I acknowledge that continued access is dependent on adherence to these guidelines.
+
+Signature:
+
+PI's Signature:
+
+Date:
