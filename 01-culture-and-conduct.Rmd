@@ -1,6 +1,6 @@
 # Culture, conduct, and the co-lab
 
-by Jess Grembi and Bisanz Lab
+by Jess Grembi
 
 ## Lab culture
 
@@ -77,7 +77,7 @@ If you don’t already understand the concept or method, you probably won’t be
 This guide is specific to our lab work. If you’re working on coursework, a class presentation, a fellowship application, or a conference submission, you must follow their guidelines about AI use and authorship.
 
 ## One Health Microbiome Center Co-laboratory
-
+written by Bisanz lab members
 ###Background
 *Mission Statement:* The OHMC-CL exists to catalyze cutting edge microbiome science at PSU through facilitating independent access to cutting edge high-throughput technologies for microbiome profiling.
 *What the OHMC-CL is:* The OHMC-CL is collaborative space with shared equipment, resources, and protocols for microbiome characterization. The goal is for users across PSU to be able to access and use these resources to enable their research.
