@@ -140,7 +140,7 @@ option.
 - Tapestation 4200 (automated electrophoresis for QC of nucleic acids)
 - QIAquant 384-well qPCR system
 - Integra mini-96 pipettes
-- -20\ang{} C co-lab freezer (limited, temporary storage)
+- -20° C co-lab freezer (limited, temporary storage)
 - Extraction hood (biosafety cabinet for nucleic acid work)
 - Illumina iSeq (pilot scale sequencing runs, metagenomic library QC and normalization)
 
