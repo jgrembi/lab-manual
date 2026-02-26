@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 2 Culture and conduct | Grembi Lab Manual</title>
   <meta name="description" content="Lab practices, safety, and data science best practices" />
-  <meta name="generator" content="bookdown 0.42 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.45.1 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 2 Culture and conduct | Grembi Lab Manual" />
   <meta property="og:type" content="book" />
@@ -53,8 +53,9 @@
 
 
 <style type="text/css">
+html { -webkit-text-size-adjust: 100%; }
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -64,7 +65,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -172,10 +173,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <ul>
 <li class="chapter" data-level="4.2.1" data-path="lab-safety.html"><a href="lab-safety.html#the-following-trainings-can-be-accessed-from-the-ehs-training-website"><i class="fa fa-check"></i><b>4.2.1</b> The following trainings can be accessed from the EHS training website</a></li>
 <li class="chapter" data-level="4.2.2" data-path="lab-safety.html"><a href="lab-safety.html#our-lab-is-a-biosafety-level-2-bsl2-lab-which-requires-the-following-trainings-that-can-be-accessed-from-the-citi-website"><i class="fa fa-check"></i><b>4.2.2</b> Our lab is a Biosafety Level 2 (BSL2) lab, which requires the following trainings that can be accessed from the CITI website</a></li>
-<li class="chapter" data-level="4.2.3" data-path="lab-safety.html"><a href="lab-safety.html#since-we-work-with-bloodborne-pathogens-everyone-working-in-the-lab-needs-to-be-offered-updated-hepatitis-b-vaccination"><i class="fa fa-check"></i><b>4.2.3</b> Since we work with Bloodborne Pathogens, everyone working in the lab needs to be offered updated Hepatitis B vaccination</a></li>
 </ul></li>
-<li class="chapter" data-level="4.3" data-path="lab-safety.html"><a href="lab-safety.html#lab-safety-tour-and-site-specific-hazard-identification"><i class="fa fa-check"></i><b>4.3</b> Lab Safety Tour and site-specific hazard identification</a></li>
-<li class="chapter" data-level="4.4" data-path="lab-safety.html"><a href="lab-safety.html#lab-safety-officer-responsibilities"><i class="fa fa-check"></i><b>4.4</b> Lab Safety Officer Responsibilities</a></li>
+<li class="chapter" data-level="4.3" data-path="lab-safety.html"><a href="lab-safety.html#getting-added-to-our-labs-biosafety-protocol-under-penn-states-safety-tracking-system-cats."><i class="fa fa-check"></i><b>4.3</b> Getting added to our Lab’s Biosafety Protocol under Penn State’s Safety Tracking System (CATS).</a></li>
+<li class="chapter" data-level="4.4" data-path="lab-safety.html"><a href="lab-safety.html#since-we-work-with-bloodborne-pathogens-everyone-working-in-the-lab-is-offered-updated-hepatitis-b-vaccination-free-of-charge"><i class="fa fa-check"></i><b>4.4</b> Since we work with Bloodborne Pathogens, everyone working in the lab is offered updated Hepatitis B vaccination, free of charge</a></li>
+<li class="chapter" data-level="4.5" data-path="lab-safety.html"><a href="lab-safety.html#lab-safety-tour-and-site-specific-hazard-identification"><i class="fa fa-check"></i><b>4.5</b> Lab Safety Tour and site-specific hazard identification</a></li>
+<li class="chapter" data-level="4.6" data-path="lab-safety.html"><a href="lab-safety.html#lab-safety-officer-responsibilities"><i class="fa fa-check"></i><b>4.6</b> Lab Safety Officer Responsibilities</a></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="reproducibility.html"><a href="reproducibility.html"><i class="fa fa-check"></i><b>5</b> Reproducibility</a>
 <ul>
@@ -354,6 +356,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="16.5.3" data-path="slurm.html"><a href="slurm.html#folder-permissions"><i class="fa fa-check"></i><b>16.5.3</b> Folder permissions</a></li>
 </ul></li>
 <li class="chapter" data-level="16.6" data-path="slurm.html"><a href="slurm.html#running-big-jobs-1"><i class="fa fa-check"></i><b>16.6</b> Running big jobs</a></li>
+<li class="chapter" data-level="16.7" data-path="slurm.html"><a href="slurm.html#monitoring-job-efficiency-and-resource-usage-seff"><i class="fa fa-check"></i><b>16.7</b> Monitoring Job Efficiency and Resource Usage (<code>seff</code>)</a></li>
+<li class="chapter" data-level="16.8" data-path="slurm.html"><a href="slurm.html#grembi-lab-compute-resources-and-verification"><i class="fa fa-check"></i><b>16.8</b> Grembi Lab Compute Resources and Verification</a></li>
 </ul></li>
 <li class="chapter" data-level="17" data-path="checklists.html"><a href="checklists.html"><i class="fa fa-check"></i><b>17</b> Checklists</a>
 <ul>
@@ -493,42 +497,42 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
-"sharing": {
-"github": false,
-"facebook": true,
-"twitter": true,
-"linkedin": false,
-"weibo": false,
-"instapaper": false,
-"vk": false,
-"whatsapp": false,
-"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
-},
-"fontsettings": {
-"theme": "white",
-"family": "sans",
-"size": 2
-},
-"edit": {
-"link": "https://github.com/jgrembi/lab-manual/edit/master/01-culture-and-conduct.Rmd",
-"text": "Edit"
-},
-"history": {
-"link": null,
-"text": null
-},
-"view": {
-"link": null,
-"text": null
-},
-"download": ["lab-manual.pdf", "lab-manual.epub"],
-"search": {
-"engine": "fuse",
-"options": null
-},
-"toc": {
-"collapse": "subsection"
-}
+  "sharing": {
+    "github": false,
+    "facebook": true,
+    "twitter": true,
+    "linkedin": false,
+    "weibo": false,
+    "instapaper": false,
+    "vk": false,
+    "whatsapp": false,
+    "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+  },
+  "fontsettings": {
+    "theme": "white",
+    "family": "sans",
+    "size": 2
+  },
+  "edit": {
+    "link": "https://github.com/jgrembi/lab-manual/edit/master/01-culture-and-conduct.Rmd",
+    "text": "Edit"
+  },
+  "history": {
+    "link": null,
+    "text": null
+  },
+  "view": {
+    "link": null,
+    "text": null
+  },
+  "download": ["lab-manual.pdf", "lab-manual.epub"],
+  "search": {
+    "engine": "fuse",
+    "options": null
+  },
+  "toc": {
+    "collapse": "subsection"
+  }
 });
 });
 </script>

@@ -41,15 +41,16 @@ There are several required trainings before anyone can work in the lab.  Please 
 - Yearly Biosafety training
 - Bloodborne Pathogens - Research Personnel
 
-### After completing the CITI trainings, they will be populated into Penn State's Safety Tracking System (CATS).
+## Getting added to our Lab's Biosafety Protocol under Penn State's Safety Tracking System (CATS).
 - You will need to add information on your experience working in a laboratory.
 - For example, if you have prior experience working with BSL-2 organisms, that should be noted.
-- If you're here to gain lab experience, you can include lab-based classes you have taken (e.g. chemistry, biology, microbiology) and also include hte name of your mentor in the lab who will train you.
+- If you're here to gain lab experience, you can include lab-based classes you have taken (e.g. chemistry, biology, microbiology) and also include the name of your mentor in the lab who will train you.
 - Directions for logging into CATS and editing your profile can be found [here](https://researchsupport.psu.edu/orp/ibc/events-training-resources/update-personnel-experience-in-cats-safety/).
 
-### Since we work with Bloodborne Pathogens, everyone working in the lab needs to be offered updated Hepatitis B vaccination
+## Since we work with Bloodborne Pathogens, everyone working in the lab is offered updated Hepatitis B vaccination, free of charge
 - The Bloodborne Pathogen Immunization Determination form can be found [here](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://ehs.psu.edu/sites/ehs/files/immunizationdetermination.doc&ved=2ahUKEwjktPLn3JuOAxVVKlkFHRmKLBgQFnoECBcQAQ&usg=AOvVaw1VFj5u8sX_YtMgqAmODOI2)
-- This needs to be sent to Occupational Medicine, a normal course is two vaccinations one month apart
+- Fill this out and send it to [Occupational Medicine](https://hr.psu.edu/current-employee/occupational-medicine).
+- They will review your immunization record and recommend a booster or new vaccination series, if needed. A normal course for an unvaccinated person is two shots one month apart, a booster would be just one shot. Student vaccinations are given at the Student Health Center on campus, staff and employees get theirs at Occupational Health (near the hospital).
 
 
 ## Lab Safety Tour and site-specific hazard identification

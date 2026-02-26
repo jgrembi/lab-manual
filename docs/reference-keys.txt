@@ -1,7 +1,7 @@
 welcome-to-the-grembi-lab
 about-the-lab
 about-this-lab-manual
-culture-conduct-and-the-co-lab
+culture-and-conduct
 lab-culture
 protecting-human-subjects
 authorship
@@ -11,7 +11,6 @@ helpful-and-encouraged-uses
 use-with-caution-known-limitations
 boundaries-and-responsibilities
 other-contexts-have-other-rules
-one-health-microbiome-center-co-laboratory
 communication-and-coordination
 slack
 email
@@ -23,8 +22,8 @@ key-points-regarding-safety
 required-institutional-lab-safety-training
 the-following-trainings-can-be-accessed-from-the-ehs-training-website
 our-lab-is-a-biosafety-level-2-bsl2-lab-which-requires-the-following-trainings-that-can-be-accessed-from-the-citi-website
-after-completing-the-citi-trainings-they-will-be-populated-into-penn-states-safety-tracking-system-cats.
-since-we-work-with-bloodborne-pathogens-everyone-working-in-the-lab-needs-to-be-offered-updated-hepatitis-b-vaccination
+getting-added-to-our-labs-biosafety-protocol-under-penn-states-safety-tracking-system-cats.
+since-we-work-with-bloodborne-pathogens-everyone-working-in-the-lab-is-offered-updated-hepatitis-b-vaccination-free-of-charge
 lab-safety-tour-and-site-specific-hazard-identification
 lab-safety-officer-responsibilities
 reproducibility
@@ -149,6 +148,8 @@ individual-storage
 group-storage
 folder-permissions
 running-big-jobs-1
+monitoring-job-efficiency-and-resource-usage-seff
+grembi-lab-compute-resources-and-verification
 checklists
 pre-analysis-plan-checklist
 code-checklist
