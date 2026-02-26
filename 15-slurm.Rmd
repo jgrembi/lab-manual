@@ -1,6 +1,6 @@
 # Slurm and cluster computing on ROAR {#slurm}
 
-by Jess Grembi
+by Jess Grembi and Nazifa Tabassum
 
 Many of the bioinformatic tools that we use require a large amount of RAM, rely on large databases, and can be run in parallel across many samples. For these types of analyses, we use ROAR Collab, Penn State's computing cluster. ROAR uses Slurm, an open source, scalable cluster management and job scheduling system for computing clusters. You will need to [request an account](https://www.icds.psu.edu/account-setup/), and once you have one Jess can add you to the lab account to access our storage areas and compute resources. Please refer to the [ROAR User Guide](https://docs.icds.psu.edu) to learn about the system and how to use it. Below, we include a few tips specific to how we use ROAR Collab in our lab. 
 
@@ -303,3 +303,88 @@ To check on the status of your job, enter the following code into terminal:
 ```{bash, eval=FALSE}
 squeue -u $USERNAME
 ```
+
+## Monitoring Job Efficiency and Resource Usage (`seff`)
+
+  When you submit a job on ROAR Collab, you request specific resources (CPUs, memory, and time). However, **your allocation only lasts while the job runs** -- not for the entire duration you requested.
+  For example: If you request **48 hours**, but your program finishes in **2 hours**, the scheduler automatically frees those CPUs and memory after 2 hours.
+You don’t “hold the node” for the remaining 46 hours.
+The real waste occurs only when you **over-request CPUs or memory** that your code doesn’t actually use.
+Those resources remain idle, which shows up as low efficiency when you check your job with `seff`.
+
+**Checking job efficiency with `seff`**
+
+After a job finishes, run:
+
+`seff <JOBID>`
+
+Example output:
+
+Job ID: 1234567
+Cluster: roar-collab
+User/Account: nbt5288/jag548_cr_credit
+State: COMPLETED (exit code 0)
+Cores: 8
+CPU Utilized: 02:10:34
+CPU Efficiency: 45.3%
+Memory Utilized: 8.5 GB
+Memory Efficiency: 34.0%
+
+Interpretation:
+- **CPU Efficiency:** (CPU time used / CPU time allocated) × 100
+  - If <50%, you requested too many CPUs.
+- **Memory Efficiency:** (Memory used / Memory allocated) × 100
+  - If <50%, you overestimated memory.
+A high efficiency (>80%) means your resource requests are well tuned.
+
+**Recommended workflow for tuning jobs**
+1.	Start small.
+Run a short test job first to measure runtime and resource needs.
+2.	Log usage automatically.
+Add this at the end of your job script:
+`sacct -j $SLURM_JOB_ID --format=JobID,JobName,Elapsed,TotalCPU,AllocCPUS,MaxRSS,AllocTRES,State`
+This prints a summary of actual usage after every run.
+4.	Adjust requests.
+Use the output to refine --time, --mem, and --cpus-per-task in future submissions.
+For more details, see the ROAR documentation on [batch jobs and Slurm commands](https://docs.icds.psu.edu/running-jobs/batch-jobs/#slurm-commands).
+
+Why it's important to monitor job efficiency and usage
+
+**Fairshare** is a slurm algorithm that influences a job's priority based on a user's recent consumption of cluster resources compared to their allocated share. _To maintain a higher Fairshare score and ensure your jobs have priority, avoid requesting more resources than necessary_. This not only optimizes your job efficiency but also contributes to a fairer resource distribution among users.
+
+Here's a breakdown of how it works:
+- **Balancing access:** The Fairshare system ensures that no single user or group can monopolize the cluster. If you have recently used a large portion of the resources, the priority of your pending jobs is lowered. If you have used fewer resources, your jobs get a boost in priority.
+- **Resource tracking:** Fairshare tracks your usage based on the resources you request, such as CPU cores, memory, and GPUs, multiplied by the job's runtime. This means requesting more resources than you need can significantly reduce your Fairshare score.
+- **Priority components:** The fairshare factor is a component of a job's overall priority score, which also includes other elements like:
+  - **Age:** The longer a job has been waiting in the queue, the higher its priority becomes.
+  - **Job size:** The size of the job (how many resources it requests) can also influence its priority. Properly monitoring your computing efficiency can help you minimize a job’s size and raise the likelihood that there will be sufficient free resources to execute your job before other, larger, jobs in the queue.
+  - **Quality of Service (QoS):** This is a policy tag that can give jobs a priority boost.
+  - **Nice factor:** A value that users can set to manually lower the priority of their own jobs. 
+
+  In short, a higher Fairshare score leads to higher priority for your jobs, while a lower score means your jobs will be deprioritized in favor of those from users who have consumed fewer resources. 
+
+## Grembi Lab Compute Resources and Verification
+
+Dr. Jessica Grembi's lab has **paid ROAR Collab compute resources** under the account name: jag548_cr_credit
+This account allows lab members to submit jobs to ROAR’s **credit-based compute partitions** (`basic`, `standard`, and `himem`) and charge usage to the lab’s funded credits.
+
+**How to check if you have access**
+1. Check your accounts with `get_balance` or `mybalance`
+  - You should see jag548_cr_credit listed if it’s active for you.
+
+For example, this is what Nazifa sees:
+Account             Type         Resources                     
+--------            -------      ----------------              
+jag548_cr_credit    Credit       100.0000 credits              
+one_sc_default      Allocation   cpu=120,gres/gpu=0,mem=960G   
+open(interactive)   Open         cpu=4,mem=64G                 
+open                Open         cpu=100,gres/gpu=0,mem=800G  
+
+2. If jag548_cr_credit is missing, contact Dr. Grembi and ask to be added to the credit account. Once added, you'll be able to submit jobs using:
+```
+#SBATCH -A jag548_cr_credit
+#SBATCH -p standard
+```
+
+
+
