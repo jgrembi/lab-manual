@@ -6,7 +6,7 @@ Safety, health, and environmental stewardship are priorities at Penn State.  In 
 
 The [Environmental Health and Safety (EHS)](https://ehs.psu.edu/) team at PSU is a resource to help labs ensure we are in compliance with Federal and State laws, University directives, and are doing our best to support safety, health, and environmental stewardship.  If you have any questions about these topics, feel free to reach out to Dr. Grembi or the lab Safety Officer.  If we can’t answer your question, we can reach out to EHS for their assistance.
 
-***The lab Safety Officer is Pablo Ochoa-Andersen***
+***The lab Safety Officers are Denise Coslo and Pablo Ochoa-Andersen***
 
 ## Key points regarding safety:
 
@@ -42,8 +42,9 @@ There are several required trainings before anyone can work in the lab.  Please 
 - Bloodborne Pathogens - Research Personnel
 
 ### After completing the CITI trainings, they will be populated into Penn State's Safety Tracking System (CATS).
-- You will need to manually update your experience with lab safety.
+- You will need to add information on your experience working in a laboratory.
 - For example, if you have prior experience working with BSL-2 organisms, that should be noted.
+- If you're here to gain lab experience, you can include lab-based classes you have taken (e.g. chemistry, biology, microbiology) and also include hte name of your mentor in the lab who will train you.
 - Directions for logging into CATS and editing your profile can be found [here](https://researchsupport.psu.edu/orp/ibc/events-training-resources/update-personnel-experience-in-cats-safety/).
 
 ### Since we work with Bloodborne Pathogens, everyone working in the lab needs to be offered updated Hepatitis B vaccination

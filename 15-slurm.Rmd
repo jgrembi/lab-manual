@@ -47,7 +47,7 @@ There are 3 different hardware partitions, and you need to specify which you wan
 
 The task/job being run should dictate which partition you should use.
 
-Your credit account " jag548_cr_credit" is active. To use the account, you will need to specify it in your job submission by either selecting it via the drop down options on the portal, or by using the directive "--account= jag548_cr_credit". Additionally, you will also need to specify the desired hardware partition for your job to launch correctly. The options are "basic", "standard", and "himem".
+The lab currently has a credit account on ROAR named "jag548_cr_credit" To use the account, you will need to specify it in your job submission by either selecting it via the drop down options on the portal, or by using the directive "--account= jag548_cr_credit". Additionally, you will also need to specify the desired hardware partition for your job to launch correctly. The options are "basic", "standard", and "himem".
 
 
 ### One-Time System Set-Up
