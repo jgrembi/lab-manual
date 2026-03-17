@@ -28,7 +28,7 @@ The lab has also purchased active storage space (45 TiB, accessible at `/storage
 
 You can check the use of your personal storage and the group resources easily by running:
 ```{code3, eval=FALSE}
-check_quota
+quota_check
 ```
 
 
