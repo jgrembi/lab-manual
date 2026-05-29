@@ -84,7 +84,19 @@ A preprint is a scientific manuscript that has not been peer reviewed. Preprint 
 
 Publishing data and replication scripts allows other scientists to reproduce your work and to build upon it. We typically publish data on [Open Science Framework](osf.io), share links to [Github](github.com) repositories, and archive code on [Zenodo](zenodo.org).
 
+## Use Zotero for Citing Sources
 
+Zotero is a reference management tool that helps researchers collect, organize, cite, and share sources. In our lab, we use Zotero to keep research articles organized, use citation management, and have consistency when collaborating on literature reviews, manuscripts, and presentations. Use the following steps to get started on Zotero:
 
-
-
+- First, download the desktop version of Zotero. Using the following link: [Zotero Download Page](https://www.zotero.org/download/)
+- Select the appropriate version based on your operating system. (Windows, Mac, Linux, etc.).
+- Also download the Zotero Connector for your preferred web browser (Chrome, Safari, Firefox, etc.). The connector allows you to save papers and sources directly from your browser into Zotero with a single click.
+- Zotero also offers mobile apps available on the Apple App Store and on the Google Play Store.
+- When you open Zotero on your desktop for the first time, a pop-up should appear asking you to install the Word Plugin. Install this plugin. It allows Zotero to integrate directly with Microsoft Word for citations and bibliographies.
+- If you accidently dismiss the pop-up or it does not appear, follow the installation instructions here: [Word Plugin Installation Guide](https://www.zotero.org/support/word_processor_plugin_installation)
+- To create a Zotero account, use the registration page below: [Zotero Account Registration](https://www.zotero.org/user/register/)
+  + A validation link to your email
+  + A separate email containing a One-Time Verification Code 
+- Follow the instructions in the validation email to complete account setup and log in. 
+- For additional help getting started, refer to Zotero’s Quick Start Guide: [Zotero Quick Start Guide](https://www.zotero.org/support/quick_start_guide)
+- Lastly, ask Dr. Grembi or another lab member to send you an invitation to join the lab’s Zotero group/library.
