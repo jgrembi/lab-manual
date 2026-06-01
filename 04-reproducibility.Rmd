@@ -98,5 +98,5 @@ Zotero is a reference management tool that helps researchers collect, organize, 
   + A validation link to your email
   + A separate email containing a One-Time Verification Code 
 - Follow the instructions in the validation email to complete account setup and log in. 
-- For additional help getting started, refer to Zotero’s Quick Start Guide: [Zotero Quick Start Guide](https://www.zotero.org/support/quick_start_guide)
+- For additional help getting started, refer to Zotero’s Quick Start Guide: [Zotero Quick Start Guide](https://www.zotero.org/support/quick_start_guide) 
 - Lastly, ask Dr. Grembi or another lab member to send you an invitation to join the lab’s Zotero group/library.
