@@ -36,6 +36,7 @@ process-and-analyze-data-with-internal-replication-and-masking
 use-reporting-checklists-with-manuscripts
 publish-preprints
 publish-data-when-possible-and-replication-scripts
+use-zotero-for-citing-sources
 code-repositories
 project-structure
 rproj-files
